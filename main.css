@@ -1,0 +1,104 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('grad back.jpg');
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+   font-family:'Audiowide', cursive;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #a0db8e;
+  font-size: 128px;  
+  font-family: 'Goudy Old Style', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 40px;
+  color: #9A3334;
+}
+
+.neighborhood-guides{
+    /*background-color: #217C7E; */
+
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 54px;
+}
+
+.neighborhood-guides .future p {
+    font-size: 25px;
+    margin-bottom: 13px;
+    text-align:center;
+}
+
+.neighborhood-guides p {
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+.questions{
+ /* background-color:#458B00; */
+ background-image: url("green.jpg");
+ background-size: cover;
+}
+
+.questions p{
+  font-size: 15px;
+  color: rgb(240,239,136);
+}
+
+.questions h3{
+  color: #FFFFFF;
+  font-size: 25px;
+
+
+}
+
+.questions .first{
+    width: 300px;
+  margin: 40px;
+  background: rgba(0,63,76,0.7);
+  padding: 45px;
+  border-radius: 50px
+}
+
+.questions .second{
+    width: 300px;
+  margin: 40px;
+  background: rgba(0,63,76,0.7);
+  padding: 45px;
+  border-radius: 50px
+}
+
+.questions .third{
+    width: 300px;
+  margin: 35px;
+  background: rgba(0,63,76,0.7);
+  padding: 35px;
+  border-radius: 50px
+
+}
