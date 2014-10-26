@@ -103,8 +103,16 @@
 
 }
 
-.youtube .thumbnails{
-width: 300px;
-border-radius: 100px
+.youtube h3{
+  font-size: 54px;
+}
+
+.youtube p{
+  font-size: 25px;
+}
+
+.thumbnails{
+    width:410px; /* you can use % */
+    height: auto;
 
 }
