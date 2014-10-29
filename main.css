@@ -105,6 +105,8 @@
 
 .jumbotron img{
   width: 700px;
+  border-image: 20px;
   border-radius: 1173px;
-  border-image: 30 30 round;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
 }
