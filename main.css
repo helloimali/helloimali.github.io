@@ -104,13 +104,12 @@
 }
 
 .jumbotron img{
-  width: 700px;
-  /*border-radius: 1173px; */
+  /*width: 700px;
+  border-radius: 1173px; */
   box-shadow: 0 0 50px rgba(0, 0, 0, .8);
 
- border-radius:50%;
+ border-radius:60%;
+ border-left: 50px;
+ border-right: 50px;
 
-width:600px;
-
-height:500px;
 }
