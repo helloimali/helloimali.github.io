@@ -126,3 +126,8 @@
    position: relative; 
   right: 150px;
 }
+
+.youtubepics .gws img{
+  position: relative; 
+  left: 150px;
+}
