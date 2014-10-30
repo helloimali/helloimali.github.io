@@ -10,6 +10,11 @@
   display: inline;
 }
 
+.nav img{
+  width: 50px;
+  border-radius: 50%;
+}
+
 .jumbotron {
   background-image:url('grad back.jpg');
   height: 1000px;
