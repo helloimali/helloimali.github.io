@@ -121,19 +121,19 @@
 }
 
 
-.youtubepics img{
+.youtube img{
   height:  400px;
   width: 400px;
   border:10px solid #021a40;
   border-radius: 20%
 }
 
-.youtubepics .brown img{
+.youtube .brown img{
    position: relative; 
   right: 100px;
 }
 
-.youtubepics .gws img{
+.youtube .gws img{
   position: relative; 
   left: 100px;
 }
