@@ -117,8 +117,8 @@
 }
 
 .youtube{
-  \* background-color: rgb(12,12,12);
- background-image: url("green.jpg"); *\ 
+  /* background-color: rgb(12,12,12);
+ background-image: url("green.jpg"); */
   backgroung-image:url("https://drive.google.com/file/d/0B2sw1CNrZgfdVWxHb1Jyd3VWeXM/view?usp=sharing");
 }
 
