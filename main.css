@@ -119,7 +119,7 @@
 .youtube{
   /* background-color: rgb(12,12,12);
  background-image: url("green.jpg"); */
-  backgroung-image: url("red.jpg");
+  background-image: url("red.jpg");
 }
 
 
@@ -138,4 +138,14 @@
 .youtube .gws img{
   position: relative; 
   left: 100px;
+}
+
+.youtube h3{
+  font-size: 25px;
+  color: #7FFFD4;
+}
+
+.youtube p{
+  font-size: 15px;
+  color: #7FFFD4;
 }
