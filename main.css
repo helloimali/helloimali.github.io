@@ -32,13 +32,14 @@
 .jumbotron h1 {
   color: #a0db8e;
   font-size: 128px;  
-  font-family: 'Luckiest Guy', 'Goudy Old Style', sans-serif;
+  font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
   font-weight: bold;
 }
 
 .jumbotron p {
   font-size: 40px;
   color: #9A3334;
+  font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
 }
 
 .neighborhood-guides{
