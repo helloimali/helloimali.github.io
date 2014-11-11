@@ -111,6 +111,16 @@
 
 }
 
+.questions .forth{
+    width: 300px;
+  margin: 35px;
+  background: rgba(0,63,76,0.7);
+  padding: 35px;
+  border-radius: 50px
+
+}
+
+
 .jumbotron img{
   /*width: 700px;
   border-radius: 1173px; */
