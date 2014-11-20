@@ -5,7 +5,7 @@
   padding: 14px 10px;
   text-transform: uppercase;
 }
-/*comment*/
+
 .nav li {
   display: inline;
 }
@@ -44,6 +44,11 @@ transition: all .3s ease;
   font-size: 128px;  
   font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
   font-weight: bold;
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
 }
 
 .jumbotron p {
