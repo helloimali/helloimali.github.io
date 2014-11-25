@@ -43,7 +43,7 @@ transition: all .3s ease;
   color: #a0db8e;
   font-size: 128px;  
   font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
-  font-weight: bold;
+  font-weight: bold; 
   -webkit-transition: all .3s ease;
 -moz-transition: all .3s ease;
 -ms-transition: all .3s ease;
