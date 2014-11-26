@@ -13,6 +13,8 @@
 -ms-transition: all .3s ease;
 -o-transition: all .3s ease;
 transition: all .3s ease;
+text-decoration: none;
+
 }
 
 .nav li {
@@ -24,14 +26,17 @@ transition: all .3s ease;
   border-radius: 50%;
 }
 
-body a{
-color: #220018;
+.everything a{
+  /*
+color: #220018; */
+color: #707070;
 -webkit-transition: all .3s ease;
 -moz-transition: all .3s ease;
 -ms-transition: all .3s ease;
 -o-transition: all .3s ease;
 transition: all .3s ease;
 decoration: none;
+text-decoration: none;
 }
 
 
