@@ -4,11 +4,11 @@
 /* */
 .nav a {
   
-  font-size: 11px;
+  font-size: 15px;
   font-weight: bold;
   padding: 14px 10px;
-  text-transform: uppercase;
- /*-webkit-transition: all .3s ease;
+  /*text-transform: uppercase;
+ -webkit-transition: all .3s ease;
 -moz-transition: all .3s ease;
 -ms-transition: all .3s ease;
 -o-transition: all .3s ease;
