@@ -8,12 +8,21 @@
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
-  -webkit-transition: all .3s ease;
+ /*-webkit-transition: all .3s ease;
 -moz-transition: all .3s ease;
 -ms-transition: all .3s ease;
 -o-transition: all .3s ease;
 transition: all .3s ease;
 text-decoration: none;
+*/
+    color: #960018;
+
+       -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+
 
 }
 
@@ -28,7 +37,7 @@ text-decoration: none;
 
 .everything a{
   /* */
-color: #220018; 
+    color: #960018;
 text-decoration: none;
 -webkit-transition: all .3s ease;
 -moz-transition: all .3s ease;
@@ -58,11 +67,7 @@ transition: all .3s ease;
   font-size: 128px;  
   font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
   font-weight: bold; 
-  -webkit-transition: all .3s ease;
--moz-transition: all .3s ease;
--ms-transition: all .3s ease;
--o-transition: all .3s ease;
-transition: all .3s ease;
+
 }
 
 .jumbotron p {
@@ -97,15 +102,26 @@ transition: all .3s ease;
     margin-bottom: 13px;
      font-family: 'Open Sans Condensed', sans-serif;
 }
+
+body .questions{
+   background-image: url("green.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+}
 .questions{
  /* background-color:#458B00; */
  background-image: url("green.jpg");
- background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .questions p{
   font-size: 15px;
   color: rgb(240,239,136);
+
 }
 
 .questions h3{
@@ -161,6 +177,9 @@ transition: all .3s ease;
   /* background-color: rgb(12,12,12);
  background-image: url("green.jpg"); */
   background-image: url("red.jpg");
+   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 
