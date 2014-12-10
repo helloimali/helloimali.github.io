@@ -109,13 +109,14 @@ body .questions{
   background-position: center;
   background-attachment: fixed;
 }
+
 }
 .questions{
- /* background-color:#458B00; */
+ /* background-color:#458B00; 
  background-image: url("green.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 .questions p{
