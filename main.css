@@ -63,7 +63,8 @@
 .questions{
  /* background-color:#458B00; */
  background-image: url("green.jpg");
- background-size: cover;
+ /*background-size: cover; */
+ background-size: 100%;
 }
 
 .questions p{
