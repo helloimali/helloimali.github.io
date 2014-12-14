@@ -53,9 +53,11 @@ transition: all .3s ease;
 
 .jumbotron {
   background-image:url('grad back.jpg');
-  height: 1000px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 1000px;
   text-align:center;
    font-family:'Audiowide', cursive;
 }
