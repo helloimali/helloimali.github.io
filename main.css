@@ -52,7 +52,8 @@ transition: all .3s ease;
 
 
 .jumbotron {
-  background-image:url('grad back.jpg');
+    background-color: rgb(104,115,254);
+  /*background-image:url('grad back.jpg');*/
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center;
@@ -69,22 +70,24 @@ transition: all .3s ease;
 
 .jumbotron h1 {
   color: #a0db8e;
-  font-size: 128px;  
+  font-size: 200px;  
   font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
-  font-weight: bold; 
+  font-weight: bold;
+    padding-left: 150px;
 
 }
 
 .jumbotron p {
-  font-size: 40px;
+  font-size: 78px;
   color: #9A3334;
   font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
+    padding-left: 150px;
 }
 
 .neighborhood-guides{
-    /*background-color: #217C7E; */
+    background-color: rgb(32,194,170); 
 
-  background-image: url('back.jpg');
+  /*background-image: url('back.jpg');*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -174,6 +177,7 @@ body .questions{
 .jumbotron img{
   /*width: 700px;
   border-radius: 1173px; */
+    height:500px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 10);
 
  border-radius: 30%;
