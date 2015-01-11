@@ -112,7 +112,8 @@ transition: all .3s ease;
 }
 
 body .questions{
-   background-image: url("green.jpg");
+   /*background-image: url("green.jpg"); */
+    background-color: rgb(80,203,0);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
