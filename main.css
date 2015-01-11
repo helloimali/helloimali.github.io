@@ -111,21 +111,12 @@ transition: all .3s ease;
      font-family: 'Open Sans Condensed', sans-serif;
 }
 
-body .questions{
+.questions{
    /*background-image: url("green.jpg"); */
     background-color: rgb(80,203,0);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-}
-.questions{
- /* background-color:#458B00; 
- background-image: url("green.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; */
 }
 
 .questions p{
@@ -220,4 +211,31 @@ body .questions{
   font-size: 25px;
   color: #7FFFD4;
   font-family: 'Open Sans Condensed' , sans-serif;
+}
+
+.projects {
+    background-color: rgb(39,170,225);
+}
+
+.projects h2{
+    font-size: 54px;
+}
+.projects h3{
+    font-color:white;
+}
+
+.projects #proj{
+   padding-bottom: 20px;
+}
+
+.projects #pong{
+    text-align: left;
+}
+
+.projects #rock{
+    text-align: right;
+}
+
+.projects #website{
+    text-align: left;
 }
