@@ -185,9 +185,8 @@ body .questions{
 }
 
 .youtube{
-  /* background-color: rgb(12,12,12);
- background-image: url("green.jpg"); */
-  background-image: url("red.jpg");
+   background-color: rgb(203,6,4); 
+  /*background-image: url("red.jpg");*/
    background-size: cover;
   background-position: center;
   background-attachment: fixed;
