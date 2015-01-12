@@ -217,36 +217,50 @@ transition: all .3s ease;
 
 .projects {
     background-color: rgb(39,170,225);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
 }
 
 .projects h2{
     font-size: 54px;
 }
 .projects h3{
-    font-color:white;
+    color:#ffffff;
 }
 
 .projects #proj{
    padding-bottom: 20px;
     padding-top: 20px;
+    
 }
 
 .projects #proj p{
     font-size: 20px;
+    
 }
 
 .projects #pong{
     text-align: left;
+      font-size: 15px;
+  color: rgb(240,239,136);
 }
 
 .projects #rock{
     text-align: right;
+      font-size: 15px;
+  color: rgb(240,239,136);
 }
 
 .projects #website{
     text-align: left;
+      font-size: 15px;
+  color: rgb(240,239,136);
 }
 
 .projects #classhack{
     text-align: right;
+      font-size: 15px;
+  color: rgb(240,239,136);
 }
