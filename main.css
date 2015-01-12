@@ -247,7 +247,7 @@ transition: all .3s ease;
   color: rgb(240,239,136);
 }
 .projects #pong img{
- align
+ float: right;
 }
 
 .projects #rock{
@@ -262,7 +262,7 @@ transition: all .3s ease;
   color: rgb(240,239,136);
 }
 
-.projects #classhack{
+.projects #classhack {
     text-align: right;
       font-size: 15px;
   color: rgb(240,239,136);
