@@ -239,3 +239,7 @@ transition: all .3s ease;
 .projects #website{
     text-align: left;
 }
+
+.projects #classhack{
+    text-align: right;
+}
