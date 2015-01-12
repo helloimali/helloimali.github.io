@@ -188,7 +188,8 @@ transition: all .3s ease;
   height:  400px;
   width: 400px;
   border:10px solid #021a40;
-  border-radius: 20%
+  border-radius: 20%;
+    margin-bottom: 30px;
 }
 
 .youtube .brown img{
@@ -199,6 +200,7 @@ transition: all .3s ease;
 .youtube .gws img{
   position: relative; 
   left: 100px;
+
 }
 
 .youtube h2{
@@ -227,6 +229,10 @@ transition: all .3s ease;
 .projects #proj{
    padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.projects #proj p{
+    font-size: 20px;
 }
 
 .projects #pong{
