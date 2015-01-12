@@ -246,6 +246,9 @@ transition: all .3s ease;
       font-size: 15px;
   color: rgb(240,239,136);
 }
+.projects #pong img{
+ align
+}
 
 .projects #rock{
     text-align: right;
@@ -263,4 +266,8 @@ transition: all .3s ease;
     text-align: right;
       font-size: 15px;
   color: rgb(240,239,136);
+}
+
+.projects img{
+    width: 450px;
 }
