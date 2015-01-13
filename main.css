@@ -270,15 +270,15 @@ margin-left: 200px;
 }
 
 .projects #classhack {
-    float: right;
+    float: left;
     text-align: right;
       font-size: 15px;
   color: rgb(240,239,136);
 }
 
-.projects #classhack img{
-    float: left;
-
+.projects #classhacktext{
+  text-align: right;
+    margin-left: 346.6px;
 
 }
 
