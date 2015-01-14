@@ -37,9 +37,8 @@ transition: all .3s ease;
   width: 50px;
   border-radius: 50%;
 }
-
+/*
 .everything a{
-  /* */
     color: #960018;
 text-decoration: none;
 -webkit-transition: all .3s ease;
@@ -49,7 +48,7 @@ text-decoration: none;
 transition: all .3s ease;
 
 }
-
+*/
 
 .jumbotron {
     background-color: rgb(104,115,254);
@@ -284,4 +283,21 @@ margin-left: 200px;
 
 .projects img{
     width: 450px;
+}
+
+
+.contact{
+background-color: rgb(0,13,26);
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: center;
+background-attachment: fixed; 
+}
+
+.contact h2{
+color: rgb(59,252,52);
+}
+
+.contact p{
+color: rgb(59,252,52);
 }
