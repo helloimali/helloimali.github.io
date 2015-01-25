@@ -2507,7 +2507,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
     color: #999;
 }
 .nav>li.disabled>a:hover, .nav>li.disabled>a:focus {
-    color: #999;
+    color: ;
     text-decoration: none;
     background-color: transparent;
     cursor: not-allowed;

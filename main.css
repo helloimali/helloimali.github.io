@@ -10,6 +10,7 @@
   font-size: 15px;
   font-weight: bold;
   padding: 14px 10px;
+    color: green;
   /*text-transform: uppercase;
  -webkit-transition: all .3s ease;
 -moz-transition: all .3s ease;
@@ -49,6 +50,20 @@ transition: all .3s ease;
 
 }
 */
+a{
+text-decoration: none;
+}
+
+a:hover{
+color:#E55934;
+-webkit-transition: color 1s ease;
+-moz-transition: color 1s ease;
+-ms-transition: color 1s ease;
+-o-transition: color 1s ease;
+transition: color 1s ease;
+text-decoration: none;
+}
+
 
 .jumbotron {
     background-color: rgb(104,115,254); 
@@ -331,3 +346,14 @@ color: #6153CC;
 transition: color 1s ease;
  
 }
+
+.projects h3:hover{
+color:#E55934;
+-webkit-transition: color 1s ease;
+-moz-transition: color 1s ease;
+-ms-transition: color 1s ease;
+-o-transition: color 1s ease;
+transition: color 1s ease;
+text-decoration: none;
+}
+
