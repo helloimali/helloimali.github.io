@@ -1,3 +1,12 @@
+* {
+  box-sizing:border-box;
+}
+
+html, body {
+  margin:0;
+
+}
+
 .nav{
   rgb(0,0,0,1);
   color: #a0db8e;
@@ -67,7 +76,7 @@ text-decoration: none;
 
 .jumbotron {
     background-color: rgb(104,115,254); 
- /* background-image:url('images/brownguy.jpg'); */
+ /* background-image:url('images/brownguy.jpg'); 
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center;
@@ -75,16 +84,30 @@ text-decoration: none;
   height: 1000px;
   text-align:center;
    font-family:'Audiowide', cursive;
+    
+      background:url('https://unsplash.imgix.net/photo-1418226970361-9f1f7227d638?fit=crop&fm=jpg&h=700&q=75&w=1050') no-repeat 100% 100%; */
+  background-size:cover;
+  height:100%;
+  color:#fff;
+  text-align:center;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+    
 }
-/* HI ROHAN */
+/*
 .into{
 position: fixed;
 z-index: -1;
-}
+    
+} */
 
 .jumbotron .container {
   position: relative;
   top:100px;
+    
 }
 
 .jumbotron h1 {
@@ -111,6 +134,12 @@ z-index: -1;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+/* edits */
+  margin-top: 900px;
+  height:100%;
+  position:relative;
+  z-index:1;
+  padding:5%;
 }
 
 .neighborhood-guides h2 {
