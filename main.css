@@ -281,6 +281,10 @@ margin-left: 200px;
 
 }
 
+.projects #flare img{
+    float: right;
+    margin-left: 200px;
+}
 .projects img{
     width: 450px;
 }
