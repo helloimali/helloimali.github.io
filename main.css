@@ -26,7 +26,7 @@ text-decoration: none;
 -ms-transition: all .3s ease;
 -o-transition: all .3s ease;
 transition: all .3s ease;
-
+    
 
 }
 
@@ -77,6 +77,16 @@ text-decoration: none;
    font-family:'Audiowide', cursive;
 }
 
+.jumbotron h1,img,{
+     position: fixed;
+    top: 100%;
+    z-index: 500;
+}
+
+
+.into{
+
+}
 .jumbotron .container {
   position: relative;
   top:100px;
@@ -87,15 +97,16 @@ text-decoration: none;
   font-size: 200px;  
   font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
   font-weight: bold;
-    padding-left: 150px;
+    padding-left: 170px;
 
 }
 
 .jumbotron p {
-  font-size: 78px;
+  font-size: 60px;
   color: #9A3334;
   font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
-    padding-left: 150px;
+ text-align: right;
+
 }
 
 .neighborhood-guides{
@@ -262,8 +273,8 @@ text-decoration: none;
   color: rgb(240,239,136);
 }
 .projects #pong img{
- float: right;
-margin-left: 200px;
+ float:left;
+    margin-left: 114px;
 }
 
 .projects #rock{
@@ -293,9 +304,8 @@ margin-left: 200px;
 
 .projects #classhacktext{
   text-align: right;
-    margin-left: 346.6px;
 
-}
+} 
 
 .projects #flare{
     text-align: left;
