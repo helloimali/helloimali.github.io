@@ -51,8 +51,8 @@ transition: all .3s ease;
 */
 
 .jumbotron {
-    background-color: rgb(104,115,254);
-  /*background-image:url('grad back.jpg');*/
+    background-color: rgb(104,115,254); 
+ /* background-image:url('images/brownguy.jpg'); */
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center;
