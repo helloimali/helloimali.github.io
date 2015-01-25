@@ -76,17 +76,12 @@ text-decoration: none;
   text-align:center;
    font-family:'Audiowide', cursive;
 }
-
-.jumbotron h1,img,{
-     position: fixed;
-    top: 100%;
-    z-index: 500;
-}
-
-
+/* HI ROHAN */
 .into{
-
+position: fixed;
+z-index: -1;
 }
+
 .jumbotron .container {
   position: relative;
   top:100px;
