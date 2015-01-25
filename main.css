@@ -220,6 +220,7 @@ transition: all .3s ease;
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 
+    padding-bottom: 20px;
 }
 
 .projects h2{
@@ -281,10 +282,20 @@ margin-left: 200px;
 
 }
 
+.projects #flare{
+    text-align: left;
+      font-size: 15px;
+  color: rgb(240,239,136);
+    padding-top: 20px;
+}
+
 .projects #flare img{
     float: right;
     margin-left: 200px;
 }
+
+
+
 .projects img{
     width: 450px;
 }
