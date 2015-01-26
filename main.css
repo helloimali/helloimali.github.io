@@ -139,6 +139,7 @@ z-index: -1;
   position:relative;
   z-index:1;
   padding:5%;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 10);
     
 }
 
