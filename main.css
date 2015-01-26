@@ -4,7 +4,8 @@
 
 html, body {
   margin:0;
-
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .nav{
@@ -136,10 +137,11 @@ z-index: -1;
 /* edits */
   margin-top: 900px;
   height:100%;
+  width: 100%;
   position:relative;
   z-index:1;
   padding:5%;
-    box-shadow: 0 0 100px rgba(0, 0, 0, 10);
+    box-shadow: -50px -100px 1000px rgba(0, 0, 0, .8);
     
 }
 
