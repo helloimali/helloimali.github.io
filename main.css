@@ -75,9 +75,9 @@ text-decoration: none;
 }
 
 
-.jumbotron {
-    background-color: rgb(104,115,254); 
- /* background-image:url('images/brownguy.jpg'); 
+.jumbotron { 
+    background-image:url('images/hshacker.png');
+ /* background-color: rgb(104,115,254);; 
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center;
@@ -115,7 +115,7 @@ z-index: -1;
   font-size: 200px;  
   font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
   font-weight: bold;
-    padding-left: 170px;
+
 
 }
 
@@ -123,7 +123,7 @@ z-index: -1;
   font-size: 60px;
   color: #9A3334;
   font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
- text-align: right;
+
 
 }
 
