@@ -372,6 +372,11 @@ color: rgb(59,252,52);
 
 .contact #email{
 color:rgb(59,252,52);
+-webkit-transition: color 1s ease;
+-moz-transition: color 1s ease;
+-ms-transition: color 1s ease;
+-o-transition: color 1s ease;
+transition: color 1s ease;
 }
 
 #email:hover{
