@@ -296,13 +296,12 @@ padding-left: 60px;
 }
 
 .projects #pong{
-    text-align: left;
+
       font-size: 15px;
   color: rgb(240,239,136);
 }
 .projects #pong img{
- float:left;
-    margin-left: 114px;
+
 }
 
 .projects #rock{
