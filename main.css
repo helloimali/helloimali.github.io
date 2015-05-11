@@ -345,10 +345,9 @@ padding-left: 60px;
     margin-left: 200px;
 }
 
-
-
 .projects img{
     width: 450px;
+    z-index: 4;
 }
 
 
