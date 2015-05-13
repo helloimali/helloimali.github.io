@@ -1,53 +1,155 @@
+* {
+  box-sizing:border-box;
+}
+
+html, body {
+  margin:0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.nav{
+  rgb(0,0,0,1);
+  color: #a0db8e;
+  
+
+  }
+/* */
 .nav a {
-  color: #5a5a5a;
-  font-size: 11px;
+  
+  font-size: 15px;
   font-weight: bold;
   padding: 14px 10px;
-  text-transform: uppercase;
+    color: green;
+  /*text-transform: uppercase;
+ -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+text-decoration: none;
+*/
+    color: #960018;
+
+       -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+    
+
 }
 
 .nav li {
   display: inline;
 }
 
-.jumbotron {
-  background-image:url('grad back.jpg');
-  height: 1000px;
-  background-repeat: no-repeat;
-  background-size: cover;
+.nav img{
+  width: 50px;
+  border-radius: 50%;
+}
+/*
+.everything a{
+    color: #960018;
+text-decoration: none;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+
+}
+*/
+a{
+text-decoration: none;
+}
+
+a:hover{
+color:#E55934;
+-webkit-transition: color 1s ease;
+-moz-transition: color 1s ease;
+-ms-transition: color 1s ease;
+-o-transition: color 1s ease;
+transition: color 1s ease;
+text-decoration: none;
+}
+
+
+.jumbotron { 
+    background-image:url('images/hshacker.png');
+ /* background-color: rgb(104,115,254);; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;
   text-align:center;
    font-family:'Audiowide', cursive;
+    
+      background:url('https://unsplash.imgix.net/photo-1418226970361-9f1f7227d638?fit=crop&fm=jpg&h=700&q=75&w=1050') no-repeat 100% 100%; */
+  background-size:cover;
+  height:100%;
+  text-align:center;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px; 
 }
+/*
+.into{
+position: fixed;
+z-index: -1;
+    
+} */
 
 .jumbotron .container {
   position: relative;
   top:100px;
+    
 }
 
 .jumbotron h1 {
   color: #a0db8e;
-  font-size: 128px;  
-  font-family: 'Goudy Old Style', sans-serif;
+  font-size: 200px;  
+  font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
   font-weight: bold;
+    padding-left: 60px;
+
 }
 
 .jumbotron p {
-  font-size: 40px;
+  font-size: 60px;
   color: #9A3334;
+  font-family: 'Poiret One','Luckiest Guy', 'Goudy Old Style', sans-serif;
+padding-left: 60px;
+
 }
 
 .neighborhood-guides{
-    /*background-color: #217C7E; */
+    background-color: rgb(32,194,170); 
 
-  background-image: url('back.jpg');
+  /*background-image: url('back.jpg');*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+/* edits */
+  margin-top: 900px;
+  height:100%;
+  width: 100%;
+  position:relative;
+  z-index:1;
+  padding:5%;
+    box-shadow: -50px -100px 1000px rgba(0, 0, 0, .8);
+    
 }
 
 .neighborhood-guides h2 {
     color: #393c3d;
     font-size: 54px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .neighborhood-guides .future p {
@@ -59,17 +161,21 @@
 .neighborhood-guides p {
     font-size: 25px;
     margin-bottom: 13px;
+     font-family: 'Open Sans Condensed', sans-serif;
 }
+
 .questions{
- /* background-color:#458B00; */
- background-image: url("green.jpg");
- /*background-size: cover; */
- background-size: 100%;
+   /*background-image: url("green.jpg"); */
+    background-color: rgb(80,203,0);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .questions p{
   font-size: 15px;
   color: rgb(240,239,136);
+
 }
 
 .questions h3{
@@ -88,7 +194,7 @@
 }
 
 .questions .second{
-  width: 300px;
+    width: 300px;
   margin: 40px;
   background: rgba(0,63,76,0.7);
   padding: 45px;
@@ -96,7 +202,7 @@
 }
 
 .questions .third{
-  width: 300px;
+    width: 300px;
   margin: 35px;
   background: rgba(0,63,76,0.7);
   padding: 35px;
@@ -104,16 +210,192 @@
 
 }
 
-.youtube h3{
+.questions .forth{
+  width: 300px;
+  margin: 35px;
+  background: rgba(0,63,76,0.7);
+  padding: 35px;
+  border-radius: 50px;
+}
+
+
+.jumbotron img{
+  /*width: 700px;
+  border-radius: 1173px; */
+    height:500px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 10);
+
+ border-radius: 30%;
+}
+
+.youtube{
+   background-color: rgb(203,6,4); 
+  /*background-image: url("red.jpg");*/
+   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.youtube img{
+  height:  400px;
+  width: 400px;
+  border:10px solid #021a40;
+  border-radius: 20%;
+    margin-bottom: 30px;
+}
+
+.youtube .brown img{
+   position: relative; 
+  right: 100px;
+}
+
+.youtube .gws img{
+  position: relative; 
+  left: 100px;
+
+}
+
+.youtube h2{
   font-size: 54px;
+  color: #FF80AA;
+  font-family: 'Raleway', sans-serif;
 }
 
 .youtube p{
   font-size: 25px;
+  color: #7FFFD4;
+  font-family: 'Open Sans Condensed' , sans-serif;
 }
 
-.thumbnails{
-    width:410px; /* you can use % */
-    height: auto;
-
+.projects {
+    background-color: rgb(39,170,225);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+    padding-bottom: 20px;
 }
+
+.projects h2{
+    font-size: 54px;
+}
+.projects h3{
+    color:#ffffff;
+}
+
+.projects #proj{
+   padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+.projects #proj p{
+    font-size: 20px;
+    
+}
+
+.projects #pong{
+    text-align: left;
+      font-size: 15px;
+  color: rgb(240,239,136);
+}
+.projects #pong img{
+ float:left;
+    margin-left: 114px;
+}
+
+.projects #rock{
+    text-align: right;
+      font-size: 15px;
+  color: rgb(240,239,136);
+}
+
+.projects #website{
+    text-align: left;
+      font-size: 15px;
+  color: rgb(240,239,136);
+    padding-top: 20px;
+}
+
+.projects #website img{
+    float: right;
+    margin-left: 200px;
+}
+
+.projects #classhack {
+    text-align: right;
+      font-size: 15px;
+  color: rgb(240,239,136);
+}
+
+.projects #classhacktext{
+
+
+} 
+
+.projects #flare{
+    text-align: left;
+      font-size: 15px;
+  color: rgb(240,239,136);
+    padding-top: 20px;
+}
+
+.projects #flare img{
+    float: right;
+    margin-left: 200px;
+}
+
+
+
+.projects img{
+    width: 450px;
+}
+
+
+.contact{
+background-color: rgb(0,13,26);
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: center;
+background-attachment: fixed; 
+}
+
+.contact h2{
+color: rgb(59,252,52);
+font-size: 54px;
+}
+
+.contact p{
+color: rgb(59,252,52);
+}
+
+.contact #email{
+color:rgb(59,252,52);
+-webkit-transition: color 1s ease;
+-moz-transition: color 1s ease;
+-ms-transition: color 1s ease;
+-o-transition: color 1s ease;
+transition: color 1s ease;
+}
+
+#email:hover{
+color: #6153CC;
+-webkit-transition: color 1s ease;
+-moz-transition: color 1s ease;
+-ms-transition: color 1s ease;
+-o-transition: color 1s ease;
+transition: color 1s ease;
+ 
+}
+
+.projects h3:hover{
+color:#E55934;
+-webkit-transition: color 1s ease;
+-moz-transition: color 1s ease;
+-ms-transition: color 1s ease;
+-o-transition: color 1s ease;
+transition: color 1s ease;
+text-decoration: none;
+}
+
