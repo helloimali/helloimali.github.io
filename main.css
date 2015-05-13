@@ -8,34 +8,57 @@ html, body {
   overflow-x: hidden;
 }
 
-.nav{
-  rgb(0,0,0,1);
-  color: #a0db8e;
-  
 
-  }
-
-.nav a {
-  
-  font-size: 15px;
-  font-weight: bold;
-  padding: 14px 10px;
-    color: green;
-  /*text-transform: uppercase;
-*/
-    color: #960018;
-
-       -webkit-transition: all .3s ease;
--moz-transition: all .3s ease;
--ms-transition: all .3s ease;
--o-transition: all .3s ease;
-transition: all .3s ease;
-    
-
+.navbar-fixed-top{
+z-index: 3;
+color: azure; 
+background-color: black;
 }
 
-.nav li {
-  display: inline;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+li {
+    float: left;
+    text-align: center;
+    width: 20%;
+    
+}
+
+#navwords h6{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+#navwords li{
+    padding-top: 1%;
+    background-color: black;
+    color: #ecf0f1;
+    
+        -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    
+}
+
+#navwords li:hover{
+    padding-top: 2%;
+    background-color: #ecf0f1;
+    color: #e74c3c;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
 }
 
 
