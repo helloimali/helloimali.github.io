@@ -14,7 +14,7 @@ html, body {
   
 
   }
-/* */
+
 .nav a {
   
   font-size: 15px;
@@ -22,12 +22,6 @@ html, body {
   padding: 14px 10px;
     color: green;
   /*text-transform: uppercase;
- -webkit-transition: all .3s ease;
--moz-transition: all .3s ease;
--ms-transition: all .3s ease;
--o-transition: all .3s ease;
-transition: all .3s ease;
-text-decoration: none;
 */
     color: #960018;
 
@@ -44,22 +38,7 @@ transition: all .3s ease;
   display: inline;
 }
 
-.nav img{
-  width: 50px;
-  border-radius: 50%;
-}
-/*
-.everything a{
-    color: #960018;
-text-decoration: none;
--webkit-transition: all .3s ease;
--moz-transition: all .3s ease;
--ms-transition: all .3s ease;
--o-transition: all .3s ease;
-transition: all .3s ease;
 
-}
-*/
 a{
 text-decoration: none;
 }
@@ -98,12 +77,6 @@ text-decoration: none;
     background-attachment: fixed;
     background-position: 0px; 
 }
-/*
-.into{
-position: fixed;
-z-index: -1;
-    
-} */
 
 .jumbotron .container {
   position: relative;
@@ -131,11 +104,11 @@ padding-left: 60px;
 .neighborhood-guides{
     background-color: rgb(32,194,170); 
 
-  /*background-image: url('back.jpg');*/
+
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-/* edits */
+
   margin-top: 900px;
   height:100%;
   width: 100%;
@@ -165,7 +138,7 @@ padding-left: 60px;
 }
 
 .questions{
-   /*background-image: url("green.jpg"); */
+
     background-color: rgb(80,203,0);
   background-size: cover;
   background-position: center;
