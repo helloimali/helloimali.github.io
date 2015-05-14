@@ -295,59 +295,26 @@ padding-left: 60px;
     
 }
 
-.projects #pong{
-
-      font-size: 15px;
-  color: rgb(240,239,136);
-}
-.projects #pong img{
-
-}
-
-.projects #rock{
-    text-align: right;
-      font-size: 15px;
-  color: rgb(240,239,136);
-}
-
-.projects #website{
-    text-align: left;
-      font-size: 15px;
-  color: rgb(240,239,136);
-    padding-top: 20px;
-}
-
-.projects #website img{
-    float: right;
-    margin-left: 200px;
-}
-
-.projects #classhack {
-    text-align: right;
-      font-size: 15px;
-  color: rgb(240,239,136);
-}
-
-.projects #classhacktext{
-
-
-} 
-
-.projects #flare{
-    text-align: left;
-      font-size: 15px;
-  color: rgb(240,239,136);
-    padding-top: 20px;
-}
-
-.projects #flare img{
-    float: right;
-    margin-left: 200px;
-}
-
 .projects img{
-    width: 450px;
-    z-index: 4;
+    width: 350px;
+    height: px;
+    -webkit-transition: 1s ease;
+-moz-transition:  1s ease;
+-ms-transition:  1s ease;
+-o-transition:  1s ease;
+transition: 1s ease;
+}
+
+.projects img:hover{
+    width: 350px;
+    
+
+    -webkit-transition:  1s ease;
+-moz-transition:  1s ease;
+-ms-transition:  1s ease;
+-o-transition:  1s ease;
+transition:  1s ease;
+    opacity: 0.4;
 }
 
 
