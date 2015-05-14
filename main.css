@@ -8,8 +8,7 @@ html, body {
   overflow-x: hidden;
 }
 
-
-.navbar-fixed-top{
+..navbar-fixed-top{
 z-index: 3;
 color: azure; 
 background-color: black;
@@ -61,7 +60,7 @@ li {
 
 }
 
-
+.
 a{
 text-decoration: none;
 }
@@ -100,6 +99,12 @@ text-decoration: none;
     background-attachment: fixed;
     background-position: 0px; 
 }
+/*
+.into{
+position: fixed;
+z-index: -1;
+    
+} */
 
 .jumbotron .container {
   position: relative;
@@ -127,11 +132,11 @@ padding-left: 60px;
 .neighborhood-guides{
     background-color: rgb(32,194,170); 
 
-
+  /*background-image: url('back.jpg');*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
+/* edits */
   margin-top: 900px;
   height:100%;
   width: 100%;
@@ -161,7 +166,7 @@ padding-left: 60px;
 }
 
 .questions{
-
+   /*background-image: url("green.jpg"); */
     background-color: rgb(80,203,0);
   background-size: cover;
   background-position: center;
@@ -291,61 +296,25 @@ padding-left: 60px;
     
 }
 
-.projects #pong{
-    text-align: left;
-      font-size: 15px;
-  color: rgb(240,239,136);
-}
-.projects #pong img{
- float:left;
-    margin-left: 114px;
-}
-
-.projects #rock{
-    text-align: right;
-      font-size: 15px;
-  color: rgb(240,239,136);
-}
-
-.projects #website{
-    text-align: left;
-      font-size: 15px;
-  color: rgb(240,239,136);
-    padding-top: 20px;
-}
-
-.projects #website img{
-    float: right;
-    margin-left: 200px;
-}
-
-.projects #classhack {
-    text-align: right;
-      font-size: 15px;
-  color: rgb(240,239,136);
-}
-
-.projects #classhacktext{
-
-
-} 
-
-.projects #flare{
-    text-align: left;
-      font-size: 15px;
-  color: rgb(240,239,136);
-    padding-top: 20px;
-}
-
-.projects #flare img{
-    float: right;
-    margin-left: 200px;
-}
-
-
-
 .projects img{
-    width: 450px;
+    width: 350px;
+    -webkit-transition: 1s ease;
+-moz-transition:  1s ease;
+-ms-transition:  1s ease;
+-o-transition:  1s ease;
+transition: 1s ease;
+}
+
+.projects img:hover{
+    width: 350px;
+    
+
+    -webkit-transition:  1s ease;
+-moz-transition:  1s ease;
+-ms-transition:  1s ease;
+-o-transition:  1s ease;
+transition:  1s ease;
+    opacity: 0.4;
 }
 
 
