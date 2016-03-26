@@ -64,7 +64,8 @@ z-index: -1;
 
 .projects{
 
-    margin-top: 200px;
+    /*margin-top: 200px; */
+    margin-top: 20px; 
     
         background-color: #222222;
     border-radius: 4%;
