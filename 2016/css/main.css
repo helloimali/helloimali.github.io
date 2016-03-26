@@ -31,8 +31,10 @@ top:35%;
 width: 100%;
 height: 100%;
     z-index: 1;
+}
 
-
+#home img{
+    height: 200px;
 }
 
 #particles-js{
@@ -47,12 +49,33 @@ z-index: -1;
 }
 
 #hackathonscss{
-    background-color: aqua;
+    background-color: #222222;
+    border-radius: 4%;
     padding: 40px;
+    text-align: center;
+    color: aliceblue;
 }
 
-img{
+#hackathonscss img{
 
-    height: 200px;
+    width: 200px;
     padding: 10px;
+}
+
+.projects{
+
+    margin-top: 200px;
+    
+        background-color: #222222;
+    border-radius: 4%;
+    padding: 40px;
+    color: aliceblue;
+}
+
+.projects .row{
+    color: black;
+}
+
+.projects img{
+
 }
