@@ -48,27 +48,43 @@ z-index: -1;
     position: fixed;
 }
 
+.line{
+
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 0 0 150px 100vw;
+    border-color: transparent transparent #222222;
+    
+}
+
+.linedown{
+    
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 0 0 150px 100vw;
+    border-color: transparent #222222 transparent;
+    
+}
+
 #hackathonscss{
     background-color: #222222;
-    border-radius: 4%;
     padding: 40px;
     text-align: center;
     color: aliceblue;
+    
 }
+
 
 #hackathonscss img{
 
-    width: 200px;
+    width: 300px;
     padding: 10px;
 }
 
 .projects{
-
-    /*margin-top: 200px; */
-    margin-top: 20px; 
-    
         background-color: #222222;
-    border-radius: 4%;
     padding: 40px;
     color: aliceblue;
 }
