@@ -162,7 +162,22 @@ z-index: -1;
 }
 
 .verticalLine {
-    border-left: thin solid #fff;
+    border-left: thin solid #00ff00;
+}
+
+#contact{
+    color: aliceblue;
+    text-align: center;
+}
+
+#con{
+    margin-top: 10%;
+}
+
+#con h2{
+    font-size: 100px;
+    color: #00ff00;
+    font-weight: 100;
 }
 
 #finalpage{
