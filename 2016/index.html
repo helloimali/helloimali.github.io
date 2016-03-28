@@ -18,6 +18,7 @@
       <script src="js/jQuery.js"></script>
       <script src="js/jquery.typer.js" type="text/javascript"></script>
       <script src="js/particles.min.js" type="text/javascript"></script>
+      
       <link rel="stylesheet" href="css/main.css">
       
 
@@ -27,11 +28,24 @@
       
     <div id="homefornav"></div>  
 
+      
+      
+  <div class="navbar-fixed">
     <nav>
     <div class="nav-wrapper #000000 black">
         
         <div class = "move"><a href="#homefornav" class="brand-logo">Ali Malik</a></div>
+           <a href="#" data-activates="mobile-demo" class="button-collapse" style="padding-left: 10px;"><i class="fa fa-bars"></i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#hackathons" class="waves-effect">Hackathons</a></li>
+        <li><a href="#projects" class="waves-effect">Projects</a></li>
+        <li><a href="#changeme" class="waves-effect">Social Change</a></li>
+        <li><a href="#itube" class="waves-effect">Youtube</a></li>
+        <li><a href="#hitmeup" class="waves-effect">Contact</a></li>
+      </ul>
+        
+        <ul class="side-nav #000000 black" id="mobile-demo">
+        <li class=""><a href="#homefornav" class="waves-effect">Home</a></li>
         <li><a href="#hackathons" class="waves-effect">Hackathons</a></li>
         <li><a href="#projects" class="waves-effect">Projects</a></li>
         <li><a href="#changeme" class="waves-effect">Social Change</a></li>
@@ -41,6 +55,8 @@
         
     </div>
   </nav>
+      </div>
+    
 
 <div id="particles-js"></div>
 <div id="home">
@@ -465,9 +481,22 @@ $('[data-typer-targets]').typer({
 });
       </script>
       
+            <script>
+      (function ($) {
+    $(function () {
 
+        $('.button-collapse').sideNav();
+
+    }); // end of document ready
+})(jQuery); // end of jQuery name space
+      </script>
+      
+      
+      
+<script src="codehighlands.js"></script>
 <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
-
+<script src="js/materialize.js"></script>
+      
 </body>
 </html>

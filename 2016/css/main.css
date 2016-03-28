@@ -12,7 +12,7 @@ a{
 nav{
     position:fixed;
     z-index: 100;
-    color: aliceblue;
+    color: #fff;
     
 -webkit-transition: all 0.75s ease;
 -moz-transition: all 0.75s ease;
@@ -61,15 +61,19 @@ text-decoration: none;
   transform: scaleX(1);
 }
 
+.side-nav a{
+    color: #fff;
+}
+
 
 
 .tittle{
-    color: aliceblue;
+    color: #fff;
     text-align: center;
 }
 
 #home{
-    color: aliceblue;
+    color: #fff;
     text-align: center;
 position: relative;
 margin-left: auto;
@@ -143,7 +147,7 @@ z-index: -1;
 .newpage{
     background-color: #222222;
     padding: 40px;
-    color: aliceblue;
+    color: #fff;
     
 }
 
@@ -166,7 +170,7 @@ z-index: -1;
 }
 
 #contact{
-    color: aliceblue;
+    color: #fff;
     text-align: center;
 }
 
