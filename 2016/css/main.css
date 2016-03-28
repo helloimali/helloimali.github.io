@@ -153,8 +153,25 @@ z-index: -1;
     padding: 10px;
 }
 
+.card-action{
+    text-align: center;
+}
 
-#projects .row{
+.card-content{
     color: black;
 }
 
+.verticalLine {
+    border-left: thin solid #fff;
+}
+
+#finalpage{
+    text-align: center;
+position: relative;
+margin-left: auto;
+
+}
+
+#finalpage img{
+        height: 200px;
+}
