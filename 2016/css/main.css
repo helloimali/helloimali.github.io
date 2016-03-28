@@ -171,7 +171,7 @@ z-index: -1;
 }
 
 #con{
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 #con h2{
@@ -189,4 +189,33 @@ margin-left: auto;
 
 #finalpage img{
         height: 200px;
+}
+
+i{
+    color: white;
+}
+
+.right-align{
+    font-size: 30px;
+} 
+
+#contact a{
+    color: #fff;
+    
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+    
+}
+
+#contact a:hover{
+    color: #00ff00;
+    
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
 }
