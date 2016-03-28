@@ -180,17 +180,6 @@ z-index: -1;
     font-weight: 100;
 }
 
-#finalpage{
-    text-align: center;
-position: relative;
-margin-left: auto;
-
-}
-
-#finalpage img{
-        height: 200px;
-}
-
 i{
     color: white;
 }
@@ -218,4 +207,16 @@ transition: all 0.5s ease;
 -ms-transition: all 0.5s ease;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
+}
+
+#finalpage{
+    text-align: center;
+position: relative;
+margin-left: auto;
+margin-bottom: 50px;
+
+}
+
+#finalpage img{
+        height: 200px;
 }
