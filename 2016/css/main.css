@@ -113,6 +113,29 @@ z-index: -1;
     
 }
 
+
+.lineflip{
+
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 150px 0 0 100vw;
+    border-color: transparent #222222 transparent;
+    
+}
+
+.linedownflip{
+    
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 150px 0 0 100vw;
+    border-color: #222222 transparent transparent;
+    
+}
+
+
+
 .newpage{
     background-color: #222222;
     padding: 40px;
