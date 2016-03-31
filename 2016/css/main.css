@@ -1,3 +1,8 @@
+@font-face {
+    font-family: D3Euronism;
+    src: url(../fonts/D3Euronism.ttf);
+}
+
 
 html, body {
   margin:0;
@@ -33,6 +38,7 @@ transition: all 0.75s ease;
 
 .move{
     padding-left: 20px;
+    font-family: D3Euronism;
 }
 
 .nav-wrapper a:hover{
