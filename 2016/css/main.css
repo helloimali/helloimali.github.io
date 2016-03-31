@@ -224,3 +224,13 @@ margin: 50px;
 #finalpage img{
         height: 200px;
 }
+
+.card-image img{
+height: 200px;
+}
+
+.card span{
+    background-color: #fff;
+    color: #000 !important;
+    font-weight: 400 !important;
+}
