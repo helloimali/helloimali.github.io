@@ -4,309 +4,467 @@
 
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css">
     
-    <link rel="stylesheet" href="main.css">
 
     <link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
       
-    <link href="js/jquery.nicescroll.js">
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">  
+    <link href="css/materialize.css" rel="stylesheet" type="text/css">
+      
+      <script src="js/jQuery.js"></script>
+      <script src="js/jquery.typer.js" type="text/javascript"></script>
+      <script src="js/particles.min.js" type="text/javascript"></script>
+      
+      <link rel="stylesheet" href="css/main.css">
+      
+
   </head> 
 
   <body>
-    
-    <div class="navbar-fixed-top">
-    <ul>
-        <div id ="navwords">
-        <a href=#main123><li><h6>Ali Malik</h6></li></a>
-        <a href="#hshacker"><li><h6>High School Hacker</h6></li></a>
-        <a href="#qanda"><li><h6>Q and A</h6></li></a>
-        <a href="#youtube"><li><h6>Youtuber</h6></li></a>
-        <a href="#proj"><li><h6>Projects</h6></li></a>
-    </div>
-        
-    </ul> 
-
-    </div>
+      
+    <div id="homefornav"></div>  
 
       
-      <!-- 
-    <div class="nav">
-    <div class="navbar navbar-inverse black-navbar navbar-fixed-top" >
-      <div class="container">
-        <ul class="pull-left">
-          <li><a class="navbar-brand" href="#me"><h4>Ali Malik</h4></a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a class="navbar-brand" href="#hshacker"><h4>High School Hacker</h4></a></li>
-          <li><a class="navbar-brand" href="#qanda"><h4>Q and A</h4></a></li>
-          <li><a class="navbar-brand" href="#youtube"><h4>Youtuber</h4></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
--->
-<div id="main123"></div> 
-<div class="jumbotron">
-<div class="animated zoomIn">
-<div class="into">
-    <div id="me" class="container">
-
-            <div id="ali">
-            <h1>Hi!</h1>
-            <p>I'm Ali!</p>     
-            </div>
-
-      </div>
-    </div>
-    </div> 
-</div>
-<!--s
-<audio autoplay="" loop="">
-      <source src="music/emusic.mp3" type="audio/mpeg">
-</audio>
--->
-
-<div id= "hshacker" class="neighborhood-guides">
-    <div class="container">
-        <h2> <strong><center>High School Hacker</center></strong> </h2>
-        <hr width="550">
-        <p> Becoming exposed to code is probably one of the most amazing things that has ever happened to me. Ever. Below are a list of hackathons I've been to (in order).</p>
-           <div class= "pictures">
-<center> <table><tr><td>
-                <div class="thumbnail">
-                    <img src="images/hackbca.png">
-                </div>
-</td><td>
-                <div class="thumbnail">
-                    <img src="images/hackruu.jpeg">
-                </div>
-</td><td>
-          <div class="thumbnail"> 
-                   <img src="images/hackrpi.png"> </div>
-</td></tr></table>
-</center>
-<center>
-  <table><tr><td>
-                <div class="thumbnail">
-                    <img src="images/lhd.png">
-                  </div>
-</td><td>
-                      <div class="thumbnail"> 
-                   <img src="images/penn/1.png"> 
-      </div>
-</td><td>
-         <div class="thumbnail">
-            <img src="images/hackbcaII.png">
-         </div>
-      </td></tr></table>
-</center>
-            </div>
-
-            <div class=future>
-            <p> Some future hackathons I plan on going to, hit me up if you're going!</p>
-            </div>
-            <!-- <div class="col-md-4"> -->
-             <div class="pics">
-              <center>  
-                    <table><tr><td>
-<div class="thumbnail"> 
-    <img src="images/codeday.png"></div>
-</td><td>
-                        
-<div class="thumbnail"> 
-    <img src="images/infuture.png"></div>
-</td></tr></table></center></div>
+      
+  <div class="navbar-fixed">
+    <nav>
+    <div class="nav-wrapper #000000 black">
         
-</div>
-</div>
-
-<div id="qanda" class= "questions">
-<center>
-
-  <table>
-    <div class="col-md-4">
-      <div class="first">
-            <h3>How long have I been coding</h3>
-            <p> Well I saw it back in 7th grade and I regret not picking it up right away. Instead I waited till my freshman year to actually start learning.</p> 
+        <div class = "move"><a href="#homefornav" class="brand-logo">Ali Malik</a></div>
+           <a href="#" data-activates="mobile-demo" class="button-collapse" style="padding-left: 10px;"><i class="fa fa-bars"></i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#hackathons" class="waves-effect">Hackathons</a></li>
+        <li><a href="#projects" class="waves-effect">Projects</a></li>
+        <li><a href="#changeme" class="waves-effect">Social Change</a></li>
+        <li><a href="#itube" class="waves-effect">Youtube</a></li>
+        <li><a href="#hitmeup" class="waves-effect">Contact</a></li>
+      </ul>
+        
+        <ul class="side-nav #000000 black" id="mobile-demo">
+        <li class=""><a href="#homefornav" class="waves-effect">Home</a></li>
+        <li><a href="#hackathons" class="waves-effect">Hackathons</a></li>
+        <li><a href="#projects" class="waves-effect">Projects</a></li>
+        <li><a href="#changeme" class="waves-effect">Social Change</a></li>
+        <li><a href="#itube" class="waves-effect">Youtube</a></li>
+        <li><a href="#hitmeup" class="waves-effect">Contact</a></li>
+      </ul>
+        
+    </div>
+  </nav>
       </div>
-      </div>   
+    
 
-
-            <div class="col-md-4">
-  <div class= "second">            
-          <h3>How did you start learning?</h3>
-          <p> I first went to code academy, and just picked up HTML and CSS. After that, I went to HackBCA, which is where I made 
-           <a href="http://harrowimali.github.io/impospong/"> Impossible Pong</a>.
-      </p>
-    </div>
+<div id="particles-js"></div>
+<div id="home">
+<h1><img src="images/logo.png"></h1>
+    <div id="typed-strings"><h3 data-typer-targets="I like to code, I like to learn, I like to design, I like to play video games, I like to communicate, I like to cooperate, I like to work with people, I like to create">I like to code</h3></div>
 </div>
+
+      <div class="container" id="hackathons"></div>
+<div class= "tittle"><h2> <strong>High School Hacker</strong> </h2>
+          <hr width="550">
+    <p class="container">I had to start from somewhere, right? My journey began my freshman year of High School. From then on, I was a high school hacker. Below are the list of hackathons I've been to (in chronological order).</p></div>
+      
+<div class="lineflip"></div>     
+<div class="newpage" id="hackathonscss">
+
        
-
  
-            <div class="col-md-4">
-  <div class="third">
- <h3>How should I start learning?</h3>
-      <p>Well, I definitely recommend starting to look at code, hit F12 on your keyboard to look at the code of this website! <a href="http://www.codecademy.com/"> Code academy</a> Is also a great free resource. <a href="http://onemonth.com/"> One Month</a> is also a great way to learn!</p>
-    </div>
-</div>                  
-
-
-
-
-  <tr><td>
-    <div class="col-md-8">
-  <div class="forth">
- <h3>What is the answer to life?</h3>
-      <p> The answer to life is a simple "42". Nothing more. Nothing less.</p>
-    </div>
-</div>                  
-</td></tr>
-      </table></center>
-</div>
-
-
-<div id="youtube" class= youtube>
 <center>
-  <div class="container">
-    <h2> Youtube! </h2>
-    <hr width="300">
-    <p> I'm also a youtuber! </p>
-    <p> Wanna see me play video games? My channel name is <a href="https://www.youtube.com/user/gamingwithsalad">Gaming With Salad</a>! </p>
-    <p> Wanna see some useless skits and rants? Head over to my other channel,<a href="https://www.youtube.com/user/thelifeofabrownguy">The life of a brown guy</a>! </p>
+<div class="row">
+    <div class="col-md-4 col-xs-6"><img src="images/hackbca.png"></div>
+    <div class="col-md-4 col-xs-6"> <img src="images/hackruu.jpeg"> </div>
+    <div class="col-md-4 col-xs-6"><img src="images/hackrpi.png"> </div>
+
+
+    <div class="col-md-4 col-xs-6"><img src="images/lhd.png"></div>
+    <div class="col-md-4 col-xs-6"> <img src="images/1.png">  </div>
+    <div class="col-md-4 col-xs-6"><img src="images/hackbcaII.png"></div>
+    </div>
+<div class="row">
+    <div class="col-md-4 col-xs-6"><img src="images/paxii.jpg"></div>
+    <div class="col-md-4 col-xs-6"><img src="images/hackbcaIII.png"></div>
+    <div class="col-md-4 col-xs-6"></div>
 </div>
 
+                <p> Some future hackathons I plan on going to, say hi if you see me!</p>
 
 <div class="row">
-    <div class="col-md-6">
-     <div class= brown> 
-        <a href="https://www.youtube.com/user/thelifeofabrownguy">
-        <img src="images/brownguy.jpg" alt="The life of a brown guy">
-        </a>
-      </div>
-    </div>
-    <div class="col-md-6">
-  <div class= gws> 
-     <a href="https://www.youtube.com/user/gamingwithsalad">
-      <img src="images/gws.png" alt="Gaming with salad">
-    </a>
-  </div>
-    </div>
-</div>
-</center>
+    <div class="col-md-6 col-xs-6"><img src="images/hackehs.png"></div>
+    <div class="col-md-6 col-xs-6"> <img src="images/hackmhs.png"></div>
 </div>
 
-<div class="projects">
-<div class="container">
- <div id="proj">  <center>
-<h2>Projects!</h2>
-<hr width="270">
-<p> As a person and as a hacker I work on many things! Here are a few!</p>
-</center></div>
-    <center>
+<div class="row">
+    <div class="col-md-6 col-xs-6"><img src="images/codeday.png"></div>
+    <div class="col-md-6 col-xs-6"> <img src="images/infuture.png"></div>
+</div>
+    
+</center>
+</div>
+ <div class="linedown"></div>        
+      
+      
+      
+      
+      
+ <div id="projects"></div>  
+   <div class="tittle">  
+        <h2>Projects</h2>
+       <hr width="250">
+    <p>Over the years, I have created things that I am proud of.</p>
+      <p>Here are a few!</p>
+      </div>
+      
+      <div class="line"></div>    
+      
+
+<div class="newpage" id="projects">
+         
     <div class="row">
         
-<div class="col-md-6">   
-    
-<div id="pong">
-    
-    <img src="images/pong.png" style="z-index:-1"> 
-        <a href="http://harrowimali.github.io/impospong/" target="_blank"><h3>Impossible Pong</h3></a>
-    <p>This was a hack I made at HackBCA. This is where my coding journy began.</p>
-    
-</div>
-    
-</div>
-<div class="col-md-6">
-<div id="website">
+        <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/pong.png">
+              <span class="card-title">Impossible Pong</span>
+            </div>
+            <div class="card-content">
+              <p>This was a hack I made at HackBCA. This is where my coding journy began.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://harrowimali.github.io/impospong/">Demo</a>
+            </div>
+          </div>
 
-    <img src="images/website.png">
-    <a href="http://harrowimali.github.io/me" target="_blank"> <h3> My Website</h3></a>
-    <p>I started working on this website and learned so much in the process!</p>
-    <p>I started making this webstite on October 24, 2014 and I'm still working on it!</p>
+  </div>
+            
+            
+        <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/website.png">
+              <span class="card-title">My Website</span>
+            </div>
+            <div class="card-content">
+    <p>I started working on this website and learned so much in the process! I started making this webstite on October 24, 2014 and I'm still working on it! Check out last years website!</p>
+            </div>
+            <div class="card-action">
+              <a href="http://harrowimali.github.io/2015/index.html">Demo</a>
+            </div>
+          </div>
+
+  </div>
         
+        <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/classhack.png">
+              <span class="card-title">Class-Hack</span>
+            </div>
+            <div class="card-content">
+              <p> This was a project my team and I made at HackRPI. This project also won a catagory at HackRPI!</p>
+            </div>
+            <div class="card-action">
+              <a href="http://nimus0108.github.io/classhack/">Demo</a>
+            </div>
+          </div>
 
-</div>
-</div>
-</div>
-   <div class="row">
-<div class="col-md-6">
-    
-<div id="classhack">
+  </div>
+        
+        
+        </div>
 
-
-        <img src="images/classhack.png">
-
-
-        <a href="http://suminkim.me/classhack/"><h3>Class-Hack</h3></a>
-<p> This was a project my team and I made at HackRPI</p>
-<p> This project also won a catagory at HackRPI!</p>
-</div> 
-    
-</div>
-<div class="col-md-6">
-<div id="flare">
-    <img src="images/flare.png">
-    <a href="http://flare.meteor.com/" target="_blank"> <h3> Flare</h3></a>
+    <div class="row">
+     
+        <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/flare.png">
+              <span class="card-title">Flare</span>
+            </div>
+            <div class="card-content">
     <p>We want to solve the all-too-common problem that people have a really hard time communicating to find where each other are.
 
-We're the all-in-one tool to help people find each other, especially in small places. People shoot out Flares, geotagged posts with text and images, to various channels that others can subscribe to.
-</p>
+We're the all-in-one tool to help people find each other, especially in small places. People shoot out Flares, geotagged posts with text and images, to various channels that others can subscribe to.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://flare.meteor.com/">Demo</a>
+            </div>
+          </div>
+
+  </div>  
+            
+        <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/eventface.png">
+              <span class="card-title">EventFace</span>
+            </div>
+            <div class="card-content">
+    <p>At the time of the annoncement of the Apple Watch, a developer released a QR code type app, in which you would tape a code on your arm and scan it with your iPhone to see what an Apple Watch would look like on your wrist. We implemented that code onto the Pebble, to give a more comfortable represntation of the Apple watch.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://harrowimali.github.io/EventFace">Demo</a>
+            </div>
+          </div>
+
+  </div>
+        
+        <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/shute.png">
+              <span class="card-title">Shute</span>
+            </div>
+            <div class="card-content">
+    <p>Shute systematically redirects customer and citizen complaints to appropriate officials who can solve their problems. It works by allowing lower-ranking officials to redirect complaints to higher-ranking ones when they are not capable enough in their position.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://shuteit.co">Demo</a>
+              <a href="http://harrowimali.github.io/shutelanding">Landing Page</a>
+            </div>
+          </div>
+
+  </div>    
+        
+
+            
+  </div>
+  
+     <div class="row">
+         
+        <div class="col-md-4 col-xs-6">  </div>     
+        
+        <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="Photoshopfiles/comingsoon.png">
+              <span class="card-title"></span>
+            </div>
+   
+            <div class="card-action">
+                <a><h6>More projects are in development! Stay tunned!</h6></a>
+            </div>
+          </div>
+
+  </div> 
+           <div class="col-md-4 col-xs-6">  </div>     
+         
+  </div>         
+               
+        </div>
+   <div class="linedownflip"></div> 
+
+      
+<div id="changeme"></div>
+<div class="tittle">
+    <h2>Social Change</h2>
+    <hr width="400">
+    <p>Change doesn't just happen. You have to ignite it.</p>
+</div>      
+      
+<div class="lineflip"></div>
+      
+<div class="newpage" id="change">
+      
+<div class="row">
+    
+    
+            <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/ineedlove.png">
+              <span class="card-title">I Need Love</span>
+            </div>
+            <div class="card-content">
+    <p>I created this project to help students who were dealing with emotional pain. It was completly anonomous from their end, unless they choose to reveal their identity. We spoke to stuednets about issues, ranging from depression to lonliness. It was a very interesting experince. Unfortunatly, this project was discontinued, due to a lack of time on our end.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://harrowimali.github.io/ineedlove ">Demo</a>
+            </div>
+          </div>
+
+  </div>   
+            <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/hackware.png">
+              <span class="card-title">Hackware + Hackware 2.0</span>
+            </div>
+            <div class="card-content">
+    <p>I am a intern at Hackware, this being my second year. I'm currently a web developer for this project. This company was created for the sole reason of renting out hardware to hackathon organizers and individuals who wanted to test out hardware for programming purposes. We are a cheaper and faster alternative for the budgeted hackathons across the US.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://hackware.io">Demo</a>
+            </div>
+          </div>
+
+  </div>
+            <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/homeless.jpg">
+              <span class="card-title">Fundraising for the homeless</span>
+            </div>
+            <div class="card-content">
+    <p>One day I was in chinese class and I was complaining about freezing to death. At the time, I was wearing a sweater and sweatpants. My friend looked at me, dead in the eyes, and told me "think about the homeless man" and just turned away. At that moment, I realized how lucky I was to have what I had. And at that moment, I decided to help the best way I could. I grabbed a team of people, we raised aboutt $300, bought a load of chlothes (about 11~12 bags worth), and donated it all. We plan on doing this every year, this being the first year.</p>
+            </div>
+            <div class="card-action">
+              <a>Theres no demo for this one!</a>
+            </div>
+          </div>
+
+  </div>
+
+    <div class="col-md-4"></div>
+    
+    <div class="col-md-4 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="Photoshopfiles/comingsoon.png">
+              <span class="card-title"></span>
+            </div>
+   
+            <div class="card-action">
+                <a><h6>More projects are in development! Stay tunned!</h6></a>
+            </div>
+          </div>
+
+  </div>
+    
+    <div class="col-md-4"></div>
+
+  </div>
+    
+</div> 
+      
+      
+      
+      
+ <div class="linedown"></div> 
+
+      
+<div id="itube"></div>      
+<div class="tittle">
+    <h2>Youtube</h2>
+    <hr width="300">
+    <p> I'm also a youtuber! </p>
+</div>      
+<div class="line"></div>
+<div class="newpage" id="youtube">
+    <div class="container">     
+        <div class="row">
+            <div class="col-md-6 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/tloabg.png">
+              <span class="card-title">The Life of a Brown Guy</span>
+            </div>
+            <div class="card-content">
+                <p>This is a youtube channel I created to post all my youtube and school videos. Feel free to check my videos out! (My favorite is this video, called <a href ="https://youtu.be/Hr6WX4aBZOI">Historical Legends</a>)</p>
+            </div>
+            <div class="card-action">
+              <a href="http://youtube.com/user/thelifeofabrownguy">Channel</a>
+            </div>
+          </div>
+
+  </div>   
+            <div class="col-md-6 col-xs-6"> <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/MS.png">
+              <span class="card-title">Malik Studios</span>
+            </div>
+            <div class="card-content">
+    <p>This is the youtube channel I will be uploading my films. These videos will be higher quality. These videos will have meaning behind them or will be short action/emotinal films.</p>
+            </div>
+            <div class="card-action">
+              <a href="#itube">Channel coming soon</a>
+            </div>
+          </div>
+
+  </div>
+        </div>    
+    </div>    
+</div>
+<div class="linedownflip"></div>      
+
+
+<div id="hitmeup"></div>
+<div class="tittle">
+    <h2>Contact</h2>
+    <hr width="400">
+    <p>Need to talk? I'm all ears.</p>
+</div>
+<div class="lineflip"></div>
+<div class="newpage" id="contact">
+      
+<div class= "row">
+    
+    <div class="col-md-6" id="con">
+    <h2>Contact</h2>
+    </div>
+    
+
+    
+        <div class="col-md-6">
+            <div class="verticalLine">
+                <div class="container">
+                    <br>
+                <a href="http://github.com/harrowimali" target="_blank">
+                    <h4 class="left-align"><i class="fa fa-github fa-3x" id="email"></i></h4>
+  
+                    <h4 class="right-align">@harrowimali</h4> 
+                    <h4 class="right-align">github.com/harrowimali</h4>                
+                </a>
+                    <br>
+                    <br>
+                 <a href="mailto:toalisaeedmalik@gmail.com">
+
+                <h4 class="left-align"><i class="fa fa-envelope fa-3x"></i></h4>
+                <h4 class="right-align">toalisaeedmalik [at] gmail [dot] com</h4>   
+                </a> 
+                    <br>
+                    <br>
+                <a onclick="sorry();">
+                    
+                    <h4 class="left-align"><i class="fa fa-file-text fa-3x"></i></h4>
+  
+                    <h4 class="right-align">resume</h4> 
+                </a>
+                </div>
+        </div>
+    </div>    
+    
 </div>  
 </div>
+      
+      
+      
+<div class = "newpage" id="finalpage">
+<h1><img src="images/logo.png"></h1>
 </div>
-    </center>
-</div>    
 
-</div>
-
-
-<div class="contact">
-<div class="container">
-<center>
-<h2>Contact me!</h2>
-<hr width="400">
-<div class="row center max00">
     
-<div class="col-md-6 center">
-    <a class="social animated" id="email" href="mailto:toalisaeedmalik@gmail.com">
-        <i class="fa fa-envelope fa-5x"></i>
-    </a>
-</div>
- 
-<div class="col-md-6 center">
-<a href="http://github.com/harrowimali" class="contact-icon" target="_blank">
-<i class="fa fa-github fa-5x" id="email"></i>
-</a>
-</div>
-
-</div>
-</center>
+      
     
-</div>    
-</div>
+      
 
 <!-- some javascript c: -->    
-<script src="js/jquery.nicescroll.js"></script>
-<script type='text/javascript'>
-    $("html").niceScroll({ 
-        scrollspeed: 40,
-        mousescrollstep: 60,
-        cursorborder: '0px',
-        cursorcolor: "rgba(2,255,255,.5)",
-        touchbehavior: false
-        //change "false" ^^ to "true" to
-        //enable touch screen like behavior!
-    });
-</script>
+      <script>
+$('[data-typer-targets]').typer({
+  highlightSpeed    : 2600,
+  typeSpeed         : 8600,
+  clearDelay        : 6500,
+  typeDelay         : 6200,
+  clearOnHighlight  : false,
+  typerDataAttr     : 'data-typer-targets',
+  typerInterval     : 2000
+});
+      </script>
       
-<script>
+            <script>
+      (function ($) {
+    $(function () {
+
+        $('.button-collapse').sideNav();
+
+    }); // end of document ready
+})(jQuery); // end of jQuery name space
+      </script>
+      
+      <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -316,6 +474,15 @@ We're the all-in-one tool to help people find each other, especially in small pl
   ga('send', 'pageview');
 
 </script>
+<script>
+      
+function sorry(){
+    alert("I'm still updating my resume! If you're interested, shoot me an email!");
+}      
+</script>
+<script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+<script src="js/materialize.js"></script>
       
 </body>
 </html>
