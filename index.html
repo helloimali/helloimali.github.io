@@ -58,11 +58,10 @@
     
     
     
-    <div class='box'>
+<div class='box'>
   <div class='wave -one'></div>
   <div class='wave -two'></div>
   <div class='wave -three'></div>
-
 </div>
     
     
@@ -76,9 +75,19 @@
 <div class="fullscreen">
 <div class="container">
     
+    <div class="valign-wrapper row select">
+    
+       <h6 class="category col-md-2" id="btnall" onclick="btnAll()">ALL</h6>
+        <h6 class="category col-md-2" id="btnhackathon" onclick="btnHack()">HACKATHON</h6>
+        <h6 class="category col-md-2" id="btnsocialwork" onclick="btnSW()">SOCIAL WORK</h6>
+        <h6 class="category col-md-2" id="btnvid" onclick="btnVid()">VIDEOGRAPHY</h6>
+        <h6 class="category col-md-2" id="btncurrent" onclick="btnCurrent()">CURRENT WORK</h6>
+    </div>
+    
+    
   <div class="row">
-            <div class=" col-md-6">
-    <h2 class="header">Impossible Pong</h2>
+    <div class=" col-md-6" id="imposspong">
+    <h2 class="header underline">Impossible Pong</h2>
     <div data-tilt class="js-tilt card horizontal" style="transform-style: preserve-3d;">
       <div class="card-image" >
         <img class="z-depth-5" style="transform: translateZ(70px);" src="2016/images/pong.png">
@@ -108,8 +117,8 @@
         </div>
         <div class="card-action">
         <div>
-          <a href="http://helloimali.github.io/2016/index.html" >2016</a>
-          <a href="http://helloimali.github.io/2015/indexold.html" >2015</a>
+          <a href="http://helloimali.github.io/2015/indexold.html" >2014-2015</a>
+          <a href="http://helloimali.github.io/2016/index.html" >2016-2017</a>
         </div>
         </div>
       </div>
@@ -252,40 +261,32 @@
      
   </div>
     
-
-    
-    
 </div>
-    
-
 </div>
 
-        <div class='box'>
+<div class='box'>
   <div class='wave -one'></div>
   <div class='wave -two'></div>
   <div class='wave -three'></div>
 
 </div>
     
+ 
     
+
+    
+
+
+
+
     <!-- js -->
 <script src="2016/js/jQuery.js"></script>
  <script src="global/materialize/js/materialize.min.js"></script>
-    <script src="global/tilt.jquery.js"></script>
-  
-        <script>
-        $('.js-tilt').tilt({
-            perspective: 800,
-            scale: 1.1
-            
-        })
-        
-        $(document).ready(function(){
-            $('.sidenav').sidenav();
-            $('.tooltipped').tooltip();
-            $('.collapsible').collapsible();
-          });
+  <script src="global/tilt.jquery.js"></script>
+  <script src="js/main.js"></script>
+     <script>
 
+<!-- 2 -->
     </script>
     
 </body>
