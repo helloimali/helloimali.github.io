@@ -14,7 +14,7 @@ function btnAll(){
     }
 
 }
-    
+
 function btnHack(){
     if (boolHackathon == true){
         boolHackathon = false;
@@ -42,7 +42,7 @@ function btnSW(){
         check();
     }
 }
-    
+
 function btnVid(){
     if (boolVid == true){
         boolVid = false;
@@ -56,7 +56,7 @@ function btnVid(){
         check();
     }
 }
-    
+
 function btnCurrent(){
     if (boolCurrent == true){
         boolCurrent = false;
@@ -70,7 +70,7 @@ function btnCurrent(){
         check();
     }
 }
-    
+
 function check(){
     if(boolHackathon == true && boolSW == true && boolVid == true && boolCurrent == true){
         boolAll = true;
@@ -79,20 +79,20 @@ function check(){
 }
 function buttonOn(id){
     document.getElementById(id).style.backgroundImage = "linear-gradient(to right, #a1c4fd 0%, #c2e9fb 40%,#c2e9fb 50%, #fff 100%)";
-    document.getElementById(id).style.borderStyle = "none"; 
+    document.getElementById(id).style.borderStyle = "none";
 }
-    
+
 function buttonOff(id){
     document.getElementById(id).style.backgroundImage = "linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%,rgba(0,0,0,0) 100%)";
-    document.getElementById(id).style.borderStyle = "solid"; 
-    document.getElementById(id).style.borderColor = "#c2e9fb"; 
-  
+    document.getElementById(id).style.borderStyle = "solid";
+    document.getElementById(id).style.borderColor = "#c2e9fb";
+
 }
 
 //2
 $('.js-tilt').tilt({
     perspective: 800,
-    scale: 1.1
+    scale: 1.1,
 
 })
 

@@ -6,17 +6,17 @@
     <meta property="og:image" content="images/logoo-black.png"/>
     <link rel="shortcut icon" type="image/png" href="images/logo-black.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>Ali Malik</title>
-    
+
     <!-- css -->
-    
+
 
     <link rel="stylesheet" href="global/animate.css">
-    <link rel="stylesheet" href="global/bootstrap/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="global/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="global/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="css/main.css">
-  
+
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:900|Cuprum:400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:700" rel="stylesheet">
@@ -26,17 +26,17 @@
 </head>
 
 <body>
-    
 
-    
-    
-    
+
+
+
+
      <!-- <a onclick="M.toast({html: 'I am a toast'})" class="btn">Toast!</a> -->
 <div class="fullscreen">
-    
+
     <div class="navnav">
-    
-    
+
+
       <ul id="slide-out" class="sidenav">
     <li><div class="user-view">
       <div class="background">
@@ -52,45 +52,45 @@
     <li><a class="subheader">Subheader</a></li>
     <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
   </ul>
-        
+
   <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-     </div>   
-    
-    
-    
+     </div>
+
+
+
 <div class='box'>
   <div class='wave -one'></div>
   <div class='wave -two'></div>
   <div class='wave -three'></div>
 </div>
-    
-    
-    
+
+
+
     <div class="container">
         <div class="main"><h1>Ali<br>Malik</h1></div>
     </div>
-    
+
 </div>
 
 <div class="fullscreen">
 <div class="container">
-    
+
     <div class="valign-wrapper row select">
-    
+
        <h6 class="category col-md-2" id="btnall" onclick="btnAll()">ALL</h6>
         <h6 class="category col-md-2" id="btnhackathon" onclick="btnHack()">HACKATHON</h6>
         <h6 class="category col-md-2" id="btnsocialwork" onclick="btnSW()">SOCIAL WORK</h6>
         <h6 class="category col-md-2" id="btnvid" onclick="btnVid()">VIDEOGRAPHY</h6>
         <h6 class="category col-md-2" id="btncurrent" onclick="btnCurrent()">CURRENT WORK</h6>
     </div>
-    
-    
+
+
   <div class="row">
     <div class=" col-md-6" id="imposspong">
     <h2 class="header underline">Impossible Pong</h2>
     <div data-tilt class="js-tilt card horizontal" style="transform-style: preserve-3d;">
       <div class="card-image" >
-        <img class="z-depth-5" style="transform: translateZ(70px);" src="2016/images/pong.png">
+        <img class="z-depth-5 " style="transform: translateZ(70px);" src="2016/images/pong.png">
       </div>
       <div class="card-stacked">
         <div class="card-content">
@@ -104,7 +104,7 @@
       </div>
     </div>
       </div>
-      
+
             <div class=" col-md-6">
     <h2 class="header">My Website</h2>
     <div data-tilt class="js-tilt card horizontal" style="transform-style: preserve-3d;">
@@ -124,7 +124,7 @@
       </div>
     </div>
       </div>
-      
+
     <div class=" col-md-6">
     <h2 class="header">Class-Hack</h2>
     <div data-tilt class="js-tilt card horizontal" style="transform-style: preserve-3d;">
@@ -143,7 +143,7 @@
       </div>
     </div>
       </div>
-      
+
                   <div class=" col-md-6">
     <h2 class="header">Flare</h2>
     <div data-tilt class="js-tilt card horizontal" style="transform-style: preserve-3d;">
@@ -162,7 +162,7 @@
       </div>
     </div>
       </div>
-      
+
                   <div class=" col-md-6">
     <h2 class="header">EventFace</h2>
     <div data-tilt class="js-tilt card horizontal" style="transform-style: preserve-3d;">
@@ -181,7 +181,7 @@
       </div>
     </div>
       </div>
-      
+
                   <div class=" col-md-6">
     <h2 class="header">Shute</h2>
     <div data-tilt class="js-tilt card horizontal" style="transform-style: preserve-3d;">
@@ -201,7 +201,7 @@
       </div>
     </div>
       </div>
-      
+
                 <div class=" col-md-6">
     <h2 class="header">Sereni.tech</h2>
     <div data-tilt class="js-tilt card horizontal" style="transform-style: preserve-3d;">
@@ -238,7 +238,7 @@
       </div>
     </div>
       </div>
-      
+
       <div class=" col-md-6">
     <h2 class="header">DynAdvisor</h2>
     <div data-tilt class="js-tilt card horizontal" style="transform-style: preserve-3d;">
@@ -257,10 +257,10 @@
       </div>
     </div>
       </div>
-      
-     
+
+
   </div>
-    
+
 </div>
 </div>
 
@@ -270,11 +270,15 @@
   <div class='wave -three'></div>
 
 </div>
-    
- 
-    
 
-    
+
+
+
+  <div class="square inv el"></div>
+  <div class="circle inv el"></div>
+  <div class="cistarrcle el"></div>
+
+
 
 
 
@@ -283,12 +287,38 @@
 <script src="2016/js/jQuery.js"></script>
  <script src="global/materialize/js/materialize.min.js"></script>
   <script src="global/tilt.jquery.js"></script>
+  <script src="js/anime.min.js"></script>
   <script src="js/main.js"></script>
      <script>
-
+     var duration = anime({
+       targets: ' .el',
+       duration: 2000,
+       direction: 'alternate',
+       rotate: 540,
+       loop: true
+     });
 <!-- 2 -->
     </script>
-    
+
+    <style>
+    #duration{
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+
+    .el{
+      width: 50px;
+      height: 50px;
+      background-color: green;
+    }
+
+    .inv{
+      border-style: solid;
+      border-width: 5px;
+      background-color: rgba(0,0,0,0);
+    }
+    </style>
+
 </body>
 </html>
-
