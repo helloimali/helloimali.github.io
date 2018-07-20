@@ -89,7 +89,7 @@ function buttonOff(id){
 
 }
 
-//2
+//3
 $('.js-tilt').tilt({
     perspective: 800,
     scale: 1.1,
@@ -102,3 +102,52 @@ $(document).ready(function(){
     $('.collapsible').collapsible();
     $('.materialboxed').materialbox();
   });
+
+
+
+//4
+
+  var duration = anime({
+    targets: ' .el',
+    duration: 2000,
+    direction: 'alternate',
+    rotate: 540,
+    loop: true
+  });
+
+  var rotate = anime({
+    targets: ' .rotate360',
+    duration: 5000,
+    rotate: 360,
+    loop: true,
+    easing: 'linear'
+  });
+
+  var bounce = anime({
+    targets: ' .bnce',
+    duration: 3000,
+    borderRadius: ['2em', '0em'],
+    translateX: 250,
+    direction: 'alternate',
+    loop: true
+
+  });
+
+  var scle = anime({
+    targets: '.scale',
+    duration: 2000,
+    scale: 1.3,
+    opacity: 0.3,
+    direction: 'alternate',
+    loop: true
+  })
+
+  var lineDrawing = anime({
+     targets: '#lineDrawing .lines path',
+     strokeDashoffset: [anime.setDashoffset, 0],
+     easing: 'easeInOutSine',
+     duration: 1500,
+     delay: function(el, i) { return i * 250 },
+     direction: 'alternate',
+     loop: true
+   });
