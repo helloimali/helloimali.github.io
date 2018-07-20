@@ -18,6 +18,10 @@ body, html {
     background-size: cover;
 }
 
+.navnav{
+  color: red;
+  
+}
 .main h1{
 
     font-family: 'Noto Sans';

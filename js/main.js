@@ -125,14 +125,40 @@ $(document).ready(function(){
 
   var bounce = anime({
     targets: ' .bnce',
-    duration: 3000,
+    duration: 2000,
     borderRadius: ['2em', '0em'],
-    translateX: 250,
+    translateY: -250,
     direction: 'alternate',
     loop: true
 
   });
 
+
+
+
+  var absoluteOffset = anime.timeline();
+
+  absoluteOffset
+    .add({
+      targets: '#absoluteOffset .square.el',
+      translateX: 250,
+      easing: 'easeOutExpo',
+      offset: 1000 // Starts at 1000ms of the timeline
+    })
+    .add({
+      targets: '#absoluteOffset .circle.el',
+      translateX: 250,
+      easing: 'easeOutExpo',
+      offset: 500 // Starts at 500ms of the timeline
+    })
+    .add({
+      targets: '#absoluteOffset .triangle.el',
+      translateX: 250,
+      easing: 'easeOutExpo',
+      offset: 0 // Starts at 0ms of the timeline
+    });
+
+    
   var scle = anime({
     targets: '.scale',
     duration: 2000,
