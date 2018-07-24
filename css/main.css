@@ -20,7 +20,17 @@ body, html {
 
 .navnav{
   color: red;
-  
+
+}
+
+.sidenav-trigger{
+  color: black;
+padding-left: 70px;
+
+
+}
+.main{
+  padding-left: 100px;
 }
 .main h1{
 
