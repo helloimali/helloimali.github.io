@@ -18,11 +18,33 @@ body, html {
     background-size: cover;
 }
 
-.navnav{
-  color: red;
+.el{
+  width: 50px;
+  height: 50px;
+}
+
+
+#absoluteOffset{
+  position: absolute;
+  right: 45%;
+  bottom: 15%;
+  border-radius: 50%:
 
 }
 
+.navShape{
+  width: 50px;
+  height: 50px;
+
+
+}
+.navnav{
+  color: red;
+background-color: rgba(0,0,0,0);
+}
+.waves-effect:hover{
+  text-decoration: none;
+}
 .sidenav-trigger{
   color: black;
 padding-left: 70px;
