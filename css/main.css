@@ -242,3 +242,32 @@ img{
 .category:hover {
   background-position: right center; /* change the direction of the change here */
 }
+
+canvas {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#test{
+  text-align: center;
+  font-family: 'Pinyon Script', cursive;
+  /*Pinyon Script'  Rouge Script*/
+  font-size: 6em;
+  max-width: 100%;
+  margin-top: 180px;
+  padding-top: 150px;
+    padding-bottom: 140px;
+  background-color: #ecf0f1;
+}
+
+.head{
+width: 95%:
+height: 95%;
+}
