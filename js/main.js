@@ -237,12 +237,6 @@ $(document).ready(function(){
 
 
 
-
-
-
-
-
-
   var lineDrawing = anime({
      targets: '#lineDrawing .lines path',
      strokeDashoffset: [anime.setDashoffset, 0],
@@ -256,39 +250,3 @@ $(document).ready(function(){
 ////////
 
 var rellax = new Rellax('.rellax');
-
-///////
-
-var granimInstance = new Granim({
-    element: '#gradientOne',
-    name: 'basic-gradient',
-    direction: 'left-right', // 'diagonal', 'top-bottom', 'radial'
-    opacity: [1, 1],
-    isPausedWhenNotInView: true,
-    states : {
-        "default-state": {
-            gradients: [
-                ['#FAACA8', '#DDD6F3'],
-                ['#08AEEA', '#2AF598'],
-                ['#8EC5FC', '#E0C3FC']
-            ]
-        }
-    }
-});
-
-var granimInstance = new Granim({
-    element: '#gradientTwo',
-    name: 'basic-gradient',
-    direction: 'left-right', // 'diagonal', 'top-bottom', 'radial'
-    opacity: [1, 1],
-    isPausedWhenNotInView: true,
-    states : {
-        "default-state": {
-            gradients: [
-                ['#FAACA8', '#DDD6F3'],
-                ['#08AEEA', '#2AF598'],
-                ['#8EC5FC', '#E0C3FC']
-            ]
-        }
-    }
-});
