@@ -1,5 +1,4 @@
 
-
   var boolAll = true;
     var boolHackathon = true;
     var boolSW = true;
