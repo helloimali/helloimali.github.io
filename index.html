@@ -6,6 +6,7 @@
     <!-- <meta property="og:image" content="images/logoo-black.png"/>
     <link rel="shortcut icon" type="image/png" href="images/logo-black.png"/> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
 
     <title>Ali Malik</title>
 
@@ -15,6 +16,8 @@
     <link rel="stylesheet" href="global/animate.css">
     <link rel="stylesheet" href="global/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="global/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/main.css">
 
     <!-- fonts -->
@@ -51,13 +54,13 @@
 
 
     <li><a class="subheader">Work</a></li>
-    <li><a class="waves-effect" href="#!"><i class="material-icons">work</i>Professional Work</a></li>
-    <li><a class="waves-effect" href="#!"><i class="material-icons">developer_mode</i>Personal Projects</a></li>
+    <li><a class="waves-effect" href="#proworkNAV"><i class="material-icons">work</i>Professional Work</a></li>
+    <li><a class="waves-effect" href="#perworkNAV"><i class="material-icons">developer_mode</i>Personal Projects</a></li>
 
     <li><div class="divider"></div></li>
     <li><a class="subheader">Community</a></li>
-    <li><a class="waves-effect" href="#!"><i class="material-icons">group_work</i>Social Work</a></li>
-    <li><a class="waves-effect" href="#!"><i class="material-icons">code</i>Hackathons</a></li>
+    <li><a class="waves-effect" href="#socWorkNAV"><i class="material-icons">group_work</i>Social Work</a></li>
+    <li><a class="waves-effect" href="#hackNAV"><i class="material-icons">code</i>Hackathons</a></li>
 
     <li><div class="divider"></div></li>
     <li><a class="subheader">Information</a></li>
@@ -92,28 +95,87 @@
   <div class='wave -three'></div>
 </div>
 
-
-
     <div>
         <div class="main"><h1>Ali<br>Malik</h1></div>
     </div>
 
 </div>
 
+<div id="proworkNAV"></div>
+<div class="fullscreen center">
+<div class="container">
+  <div class="subGrad shadow-lg rellax" data-rellax-speed="1" >
+    <h1 class="subText shadow-lg" >Professional Work</h1>
+  </div>
+</div>
+</div>
 
-<canvas id="gradientOne"></canvas>
-<div class="container"> <h1 id="test">Professional Work</h1> </div>
+<!-- <canvas id="gradientOne"></canvas>
+<div class="container" > <h1 id="gradientText">Professional Work</h1> </div>
+</div> -->
+
+
 
 
 <div class="container">
   <div class="row">
-    <div class=" col-md-6" id="imposspong">
+
+    <div class=" col-md-6">
       <!-- SHAPES GO HERE -->
       <!-- SHAPES END HERE-->
 
-      <div class="rellax" data-rellax-speed="2">
+      <div class="rellax" data-rellax-speed="1">
+          <h2 class="header underline">Malik Studios</h2>
+          <div class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
+            <div class="card-image" >
+              <img class="z-depth-5 " style="transform: translateZ(70px);" src="2016/images/MS.png">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>This is my own production studio. We work with recap videos, animations, and edits. We work with Adobe Photoshop, Illustrator, After Effects, and Premiere.</p>
+              </div>
+              <div class="card-action">
+              <div>
+                <a href="https://www.youtube.com/channel/UCpEFBl6D3mS-tPJWaqE5byQ" >Channel</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class=" col-md-6">
+      <!-- SHAPES GO HERE -->
+      <!-- SHAPES END HERE-->
+
+      <div class="rellax" data-rellax-speed="1">
+          <h2 class="header underline">grüpacity</h2>
+          <div class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
+            <div class="card-image" >
+              <img class="z-depth-5 " style="transform: translateZ(70px);" src="2016/images/grupacity.png">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>grüpacity is the name of the creative district of the consulting firm I currently work at. I work as a video editor and work on many types of video projecets.</p>
+              </div>
+              <div class="card-action">
+              <div>
+                <a href="http://grupacity.com" >Website</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class=" col-md-6">
+      <!-- SHAPES GO HERE -->
+      <!-- SHAPES END HERE-->
+
+      <div class="rellax" data-rellax-speed="1">
           <h2 class="header underline">Rude Boy Music</h2>
-          <div data-tilt class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
+          <div class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
             <div class="card-image" >
               <img class="z-depth-5 " style="transform: translateZ(70px);" src="2016/images/pong.png">
             </div>
@@ -134,12 +196,12 @@
     <div class=" col-md-6">
       <div class="square blue-inv el" style="position: absolute; bottom: 300px; left:100px;"></div>
       <div class="square red el" style="position: absolute; top: 62px; right:0px;"></div>
-      <div class="circle green scale el" style="position: absolute; top: -230px; right:400px;"></div>
+      <div class="circle green scale el" style="position: absolute; top: -10px; right:400px;"></div>
       <div class="circle scale blue el" style="position: absolute; top: 200px; right:-120px;"></div>
 
-      <div class="rellax" data-rellax-speed="3">
+      <div class="rellax" data-rellax-speed="2" id="RSCW">
         <h2 class="header">Rainbow Specialty Colors Website</h2>
-        <div data-tilt class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
+        <div class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
           <div class="card-image" >
             <img class="z-depth-5" style="transform: translateZ(70px);" src="img2018/rainbowSpecialty.png">
           </div>
@@ -163,10 +225,21 @@
 
 
 
-<canvas id="gradientTwo"></canvas>
-<div class="fullscreen container"> <h1 id="test">Personal Projects</h1> </div>
 
-<div class="fullscreen">
+<!-- <canvas id="gradientTwo"></canvas>
+<div class="container "> <h1 id="gradientText">Personal Projects</h1> </div> -->
+
+<div id="perworkNAV"></div>
+<div class="fullscreen center">
+<div class="container">
+  <div class="subGrad shadow-lg rellax" data-rellax-speed="2">
+    <h1 class="subText shadow-lg" >Personal Projects</h1>
+  </div>
+</div>
+</div>
+
+
+
 <div class="container">
 
     <!-- <div class="valign-wrapper row select">
@@ -409,7 +482,7 @@
       <div class="rellax" data-rellax-speed="2">
         <div class="square red el" style="position: absolute; top: 82px; right:-93px;"></div>
       </div>
-  <div class="rellax" data-rellax-speed="3">
+  <div class="rellax" data-rellax-speed="2.5">
     <h2 class="header">HoloCode</h2>
     <div data-tilt class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
       <div class="card-image" >
@@ -428,7 +501,12 @@
     </div>
   </div>
       </div>
+      <div class='box' id="waves2">
+        <div class='wave -one' id="waves2"></div>
+        <div class='wave -two' id="waves2"></div>
+        <div class='wave -three' id="waves2"></div>
 
+      </div>
       <div class=" col-md-6">
         <div class="rellax" data-rellax-speed="-1">
           <div class="square red-inv el" style="position: absolute; bottom: 200px; left:0px;"></div>
@@ -440,7 +518,7 @@
           <div class="square scale green el" style="position: absolute; top: 100px; left:-120px;"></div>
         </div>
 
-  <div class="rellax" data-rellax-speed="3">
+  <div class="rellax" data-rellax-speed="2.3">
     <h2 class="header">DynAdvisor</h2>
     <div data-tilt class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
       <div class="card-image" >
@@ -466,6 +544,8 @@
 
 </div>
 
+
+
 <!-- <div class="square blue el" style="position: absolute; top: 32px; left:23px;"></div>
 
 <div class="square blue el"></div>
@@ -480,24 +560,214 @@
 
 -->
 
+
+
+
+
+<div id="socWorkNAV"></div>
+
+<div class=" center">
+<div class="container">
+  <div class="subGrad shadow-lg rellax" data-rellax-speed="2.3" >
+    <h1 class="subText shadow-lg" >Social Work</h1>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class=" col-md-6">
+      <!-- SHAPES GO HERE -->
+      <!-- SHAPES END HERE-->
+
+      <div class="rellax" data-rellax-speed="1">
+          <h2 class="header underline">I Need Love</h2>
+          <div class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
+            <div class="card-image" >
+              <img class="z-depth-5 " style="transform: translateZ(70px);" src="2016/images/ineedlove.png">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>I created this project to help students who were dealing with emotional pain. It was completly anonomous from their end, unless they choose to reveal their identity. We spoke to stuednets about issues, ranging from depression to lonliness. It was a very interesting experince. Unfortunatly, this project was discontinued, due to a lack of time on our end.</p>
+              </div>
+              <div class="card-action">
+              <div>
+                <a href="http://helloimali.github.io/ineedlove" >Demo</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class=" col-md-6">
+      <!-- SHAPES GO HERE -->
+      <!-- SHAPES END HERE-->
+      <div class="rellax" data-rellax-speed="1">
+        <h2 class="header">Hackware + Hackware 2.0</h2>
+        <div class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
+          <div class="card-image" >
+            <img class="z-depth-5" style="transform: translateZ(70px);" src="2016/images/hackware.png">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>I was an intern at Hackware, this being my second year. I'm currently a web developer for this project. This company was created for the sole reason of renting out hardware to hackathon organizers and individuals who wanted to test out hardware for programming purposes. We are a cheaper and faster alternative for the budgeted hackathons across the US.</p>
+            </div>
+            <div class="card-action">
+            <div>
+              <a href="http://hackware.io" >Demo</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" col-md-6">
+      <!-- SHAPES GO HERE -->
+      <!-- SHAPES END HERE-->
+      <div class="rellax" data-rellax-speed="1">
+        <h2 class="header">Fundraising for the homeless</h2>
+        <div class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
+          <div class="card-image" >
+            <img class="z-depth-5" style="transform: translateZ(70px);" src="2016/images/homeless.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>One day I was in chinese class and I was complaining about freezing to death. At the time, I was wearing a sweater and sweatpants. My friend looked at me, dead in the eyes, and told me "think about the homeless man" and just turned away. At that moment, I realized how lucky I was to have what I had. And at that moment, I decided to help the best way I could. I grabbed a team of people, we raised aboutt $300, bought a load of chlothes (about 11~12 bags worth), and donated it all.</p>
+            </div>
+            <div class="card-action">
+            <div>
+              <a href="#!" >THERES NO DEMO FOR THIS ONE!</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" col-md-6">
+      <!-- SHAPES GO HERE -->
+      <!-- SHAPES END HERE-->
+      <div class="rellax" data-rellax-speed="1">
+        <h2 class="header">Beach Clean Up</h2>
+        <div class="js-tilt card horizontal shadow-lg" style="transform-style: preserve-3d;">
+          <div class="card-image" >
+            <img class="z-depth-5" style="transform: translateZ(70px);" src="img2018/beachCleanUp.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>ADD THINGS HERE</p>
+            </div>
+            <div class="card-action">
+            <div>
+              <a href="#!" >THERES NO DEMO FOR THIS ONE!</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<div class=" center">
+<div class="container">
+  <div  id="hackNAV" class="subGrad shadow-lg rellax" data-rellax-speed="1.5" >
+    <h1 class="subText shadow-lg">Hackathons</h1>
+  </div>
+</div>
+</div>
+
+<div class="center">
+<div class="container">
+  <div  class="rellax" data-rellax-speed="1.5" >
+    <div class="row">
+      <h1 class="subText col-md-3">Placed</h1>
+      <div class="container col-md-8" >
+        <section class="variable slider">
+          <div>
+            <img src="2016/images/HackRPI.png">
+          </div>
+          <div>
+            <img src="2016/images/mhacksx.png">
+          </div>
+          <div>
+            <img src="2016/images/khe.png">
+          </div>
+          <div>
+            <img src="2016/images/hackpsu1.png">
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container rellax" data-rellax-speed="0.7">
+  <section class="variable slider">
+    <div>
+      <img src="2016/images/hackbca.png">
+    </div>
+    <div>
+      <img src="2016/images/hackruu.jpeg">
+    </div>
+    <div>
+      <img src="2016/images/HackRPI.png">
+    </div>
+    <div>
+      <img src="2016/images/lhd.png">
+    </div>
+    <div>
+      <img src="2016/images/1.png">
+    </div>
+    <div>
+      <img src="2016/images/hackbcaII.png">
+    </div>
+    <div>
+      <img src="2016/images/paxii.jpg">
+    </div>
+    <div>
+      <img src="2016/images/hackbcaIII.png">
+    </div>
+    <div>
+      <img src="2016/images/mhacksx.png">
+    </div>
+    <div>
+      <img src="2016/images/khe.png">
+    </div>
+    <div>
+      <img src="2016/images/hackpsu1.png">
+    </div>
+    <div>
+      <img src="2016/images/hackpsu.svg">
+    </div>
+
+
+
+  </section>
+</div>
+
+
+
+
 <div id="lineDrawing"> <svg viewBox="0 0 280 100">
       <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="1" class="lines">
         <path d="M58 80V50.12C57.7 41.6 51.14 35 43 35a15 15 0 0 0 0 30h7.5v15H43a30 30 0 1 1 0-60c16.42 0 29.5 13.23 30 29.89V80H58z" stroke-dasharray="316.85528564453125" style="stroke-dashoffset: 316.855px;"></path>
   </g>
     </svg> </div>
-</div>
-
-<div class="hackathons">
 
 
-</div>
 
-<div class='box' id="waves2">
-  <div class='wave -one' id="waves2"></div>
-  <div class='wave -two' id="waves2"></div>
-  <div class='wave -three' id="waves2"></div>
-
-</div>
 
 
 
@@ -506,18 +776,36 @@
 
     <!-- js -->
 <script src="2016/js/jQuery.js"></script>
- <script src="global/materialize/js/materialize.min.js"></script>
-  <script src="global/tilt.jquery.js"></script>
-  <script src="js/anime.min.js"></script>
-  <script src="js/rellax.min.js"></script>
-    <script src="js/granim.min.js"></script>
+<script src="global/materialize/js/materialize.min.js"></script>
+<script src="global/tilt.jquery.js"></script>'
+<script src="js/anime.min.js"></script>
+<script src="js/rellax.min.js"></script>
+<script src="js/granim.min.js"></script>
+
+
+
   <script src="js/main.js"></script>
 
-
+ <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+ <script src="js/slick.min.js" type="text/javascript" charset="utf-8"></script>
 <script>
 
+/////
+var jQuery_2_2_0 = jQuery.noConflict();
 
+jQuery_2_2_0(document).on('ready', function() {
+jQuery_2_2_0(".variable").slick({
+  dots: true,
+  infinite: true,
+  variableWidth: true,
+  autoplay: true,
+  autoplaySpeed: 1000,
+
+
+});
+});
 </script>
+
 
 
 </body>
