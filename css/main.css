@@ -294,6 +294,9 @@ background-color: #DDD6F3;
   padding-top:100px;
   padding-bottom:100px;
   margin:20px;
+  color: black;
+  mix-blend-mode: screen;
+  background-color: #ecf0f1;
 }
 
 .slider {
