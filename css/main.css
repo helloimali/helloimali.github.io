@@ -276,15 +276,15 @@ canvas {
 }
 
 .subGrad{
-background-color: #21D4FD;
-background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
-;
+background-color: #DDD6F3;
+
   width: 100%;
   height: 70%;
   z-index: -1;
-
   padding: 1%;
 }
+
+
 
 .subText{
   text-align: center;
