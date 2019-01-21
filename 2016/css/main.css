@@ -1,0 +1,242 @@
+@font-face {
+    font-family: D3Euronism;
+    src: url(../fonts/D3Euronism.ttf);
+}
+
+
+html, body {
+  margin:0;
+  max-width: 100%;
+  overflow-x: hidden;
+height: 100%;
+    font-family: raleway;
+}
+a{
+    text-decoration: none !important;
+}
+nav{
+    position:fixed;
+    z-index: 100;
+    color: #fff;
+    
+-webkit-transition: all 0.75s ease;
+-moz-transition: all 0.75s ease;
+-ms-transition: all 0.75s ease;
+-o-transition: all 0.75s ease;
+transition: all 0.75s ease;
+}
+
+nav a:hover{
+    color: #00ff00;
+    
+-webkit-transition: all 0.75s ease;
+-moz-transition: all 0.75s ease;
+-ms-transition: all 0.75s ease;
+-o-transition: all 0.75s ease;
+transition: all 0.75s ease;
+}
+
+.move{
+    padding-left: 20px;
+    font-family: D3Euronism;
+}
+
+.nav-wrapper a:hover{
+text-decoration: none;
+
+}
+
+.nav-wrapper a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #00ff00;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-wrapper a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.side-nav a{
+    color: #fff;
+}
+
+
+
+.tittle{
+    color: #fff;
+    text-align: center;
+}
+
+#home{
+    color: #fff;
+    text-align: center;
+position: relative;
+margin-left: auto;
+top:35%;
+width: 100%;
+height: 100%;
+    z-index: 1;
+}
+
+#home img{
+    height: 200px;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+z-index: -1;
+    position: fixed;
+}
+
+.line{
+
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 0 0 200px 100vw;
+    border-color: transparent transparent #222222;
+    
+}
+
+.linedown{
+    
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 0 0 200px 100vw;
+    border-color: transparent #222222 transparent;
+    
+}
+
+
+.lineflip{
+
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 200px 0 0 100vw;
+    border-color: transparent #222222 transparent;
+    
+}
+
+.linedownflip{
+    
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 200px 0 0 100vw;
+    border-color: #222222 transparent transparent;
+    
+}
+
+.hoverable:hover {
+  transition: box-shadow .25s;
+  box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.49) !important;
+}
+
+.newpage{
+    background-color: #222222;
+    padding: 40px;
+    color: #fff;
+    
+}
+
+#hackathonscss img{
+
+    width: 300px;
+    padding: 10px;
+}
+
+.card-action{
+    text-align: center;
+}
+
+.card-content{
+    color: black;
+}
+
+.verticalLine {
+    border-left: thin solid #00ff00;
+}
+
+#contact{
+    color: #fff;
+    text-align: center;
+}
+
+#con{
+    margin-top: 20%;
+}
+
+#con h2{
+    font-size: 100px;
+    color: #00ff00;
+    font-weight: 100;
+}
+
+i{
+    color: white;
+}
+
+.right-align{
+    font-size: 30px;
+} 
+
+#contact a{
+    color: #fff;
+    
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+    
+}
+
+#contact a:hover{
+    color: #00ff00;
+    
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+#finalpage{
+    text-align: center;
+position: relative;
+margin-left: auto;
+margin: 50px;
+
+}
+
+#finalpage img{
+        height: 200px;
+}
+
+.card-image img{
+height: 200px;
+}
+
+.card span{
+    background-color: #fff;
+    color: #000 !important;
+    font-weight: 400 !important;
+}
