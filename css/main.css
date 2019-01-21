@@ -361,8 +361,8 @@ i{
 border-radius: 50% !important;
 }
 
-.footer{
-  padding: 100px;
+.logo{
+  margin-top: 50px;
 }
 
 /* mobile fixes */
@@ -384,8 +384,8 @@ border-radius: 50% !important;
 
   }
 
-  .main img{
-    height: 130px !important;
+  .logo img{
+    height: 100px !important;
   }
 
   .SOCheader{
