@@ -59,7 +59,7 @@ z-index: 321;
 
 
 }
-.main h1, .main img{
+.main h1{
 
     font-family: 'Noto Sans';
     font-size: 100px;
@@ -81,10 +81,6 @@ h6{
 img{
    border-radius: 3% !important;
 
-}
-
-.background{
-  border-radius: 0% !important;
 }
 
 .card{
@@ -305,8 +301,9 @@ background-color: #DDD6F3;
   background-color: #ecf0f1;
 }
 
-.variable{
-  padding-top: 30px;
+.slider {
+    width: 100%;
+    margin: 100px auto;
 }
 
 .slick-slide {
@@ -357,13 +354,8 @@ i{
 }
 
 
-.img-circle {
-border-radius: 50% !important;
-}
 
-.footer{
-  padding: 100px;
-}
+
 
 /* mobile fixes */
 @media only screen and (max-width: 720px) {
@@ -382,18 +374,5 @@ border-radius: 50% !important;
 
   .subGrad{
 
-  }
-
-  .main img{
-    height: 130px !important;
-  }
-
-  .SOCheader{
-      font-size: 15px !important;
-  }
-  .noplace, .place{
-    width: 50px !important;
-    padding: 0 !important;
-    margin: 0 !important;
   }
 }
